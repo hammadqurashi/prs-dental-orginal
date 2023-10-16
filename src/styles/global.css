@@ -1,0 +1,421 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-['Open_Sans'];
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-['Catamaran'];
+}
+
+/* .hero-carousel .swiper-button-prev {
+  @apply !text-primary bg-white p-6 rounded transition-colors !left-10 !hidden;
+}
+
+.hero-carousel .swiper-button-next {
+  @apply !text-primary bg-white p-6 rounded transition-colors !right-10 !hidden;
+}
+
+@media (min-width: 768px) {
+  .hero-carousel .swiper-button-prev {
+    @apply !flex;
+  }
+  .hero-carousel .swiper-button-next {
+    @apply !flex;
+  }
+}
+
+.hero-carousel .swiper-button-prev:hover,
+.hero-carousel .swiper-button-next:hover {
+  @apply !text-white bg-secondary;
+}
+
+.hero-carousel .swiper-button-prev::after {
+  @apply !text-2xl;
+}
+
+.hero-carousel .swiper-button-next::after {
+  @apply !text-2xl;
+}
+
+.hero-carousel .swiper-pagination-bullet {
+  @apply !opacity-100 !mx-3 transition-all;
+}
+
+.hero-carousel .swiper-pagination-bullet:nth-child(1) {
+  @apply bg-secondary;
+}
+
+.hero-carousel .swiper-pagination-bullet:nth-child(2) {
+  @apply bg-background;
+}
+
+.hero-carousel .swiper-pagination-bullet:nth-child(3) {
+  @apply bg-primary;
+}
+
+.hero-carousel .swiper-pagination-bullet:nth-child(4) {
+  @apply bg-backgroundSecondary;
+}
+
+.hero-carousel .swiper-pagination-bullet-active {
+  @apply scale-[2.0];
+}
+
+.reviews-carousel .swiper-wrapper {
+  @apply mb-5;
+}
+
+.reviews-carousel .swiper-pagination-bullet {
+  @apply !opacity-100 !mx-3 transition-all;
+}
+
+.reviews-carousel .swiper-pagination-bullet:nth-child(1) {
+  @apply bg-secondary;
+}
+
+.reviews-carousel .swiper-pagination-bullet:nth-child(2) {
+  @apply bg-background;
+}
+
+.reviews-carousel .swiper-pagination-bullet:nth-child(3) {
+  @apply bg-primary;
+}
+
+.reviews-carousel .swiper-pagination-bullet:nth-child(4) {
+  @apply bg-backgroundSecondary;
+}
+
+.reviews-carousel .swiper-pagination-bullet-active {
+  @apply scale-[2.0];
+} */
+
+::-webkit-datetime-edit-fields-wrapper {
+  @apply text-gray-400 focus:text-gray-600;
+}
+::-webkit-calendar-picker-indicator {
+  @apply filter opacity-60;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.banner-triangle {
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .banner-triangle {
+    display: block;
+  }
+}
+
+.fade-animation {
+  transition: opacity 1500ms;
+}
+
+.hide {
+  transition: opacity 1500ms;
+  opacity: 0;
+}
+
+.show {
+  transition: opacity 1500ms;
+  opacity: 1;
+}
+
+.hero-carousel .focusRing___1airF.carousel__slide-focus-ring {
+  outline: none !important;
+}
+
+#nprogress .bar {
+  height: 3px !important;
+}
+
+.hero-carousel .carousel__dot {
+  width: 10px;
+  height: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 3;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  @apply transition-all;
+}
+
+.hero-carousel .carousel__dot.carousel__dot--0 {
+  @apply bg-secondary;
+}
+
+.hero-carousel .carousel__dot.carousel__dot--1 {
+  @apply bg-background;
+}
+
+.carousel__dot.carousel__dot--2 {
+  @apply bg-primary;
+}
+
+.hero-carousel .carousel__dot.carousel__dot--selected {
+  width: 15px;
+  height: 15px;
+}
+
+.hero-slide {
+  height: 80vh;
+  background-image: url(https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,q_70,w_1280/v1693901084/Untitled_design_11_eu31s2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-slide .content {
+  padding: 0 15%;
+}
+.hero-slide1 {
+  height: 80vh;
+  background-image: url(https://res.cloudinary.com/db1i46uiv/image/upload/v1693907556/lovely-woman-smile_spcbk4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-slide1 .content {
+  padding: 0 15%;
+}
+.hero-slide2 {
+  height: 80vh;
+  background-image: url(https://res.cloudinary.com/db1i46uiv/image/upload/v1693907769/cosmetologists-hands-making-medical-botox-injections-beautiful-blonde-skin-lifting-facial-treatment-beauty-spa_y9cb2v.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-slide2 .content {
+  padding: 0 15%;
+}
+.swiper-button-prev {
+  left: 50px !important ;
+  right: auto;
+}
+.swiper-button-next {
+  right: 50px !important;
+  left: auto;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 13px !important;
+  font-weight: 900 !important;
+  padding: 13px 16px !important;
+  background-color: white !important;
+  border-radius: 4px !important;
+  color: rgb(21, 127, 180) !important;
+}
+
+.swiper-button-next:hover::after,
+.swiper-button-prev:hover::after {
+  background-color: rgb(255 72 164) !important;
+  color: white !important;
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 0.5 !important;
+}
+.emergency24 {
+  height: 80vh;
+}
+.accordion {
+  background: white;
+  border-radius: 5px;
+  font-weight: 700;
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.accordionDrop {
+  padding: 0px 30px;
+}
+
+::-webkit-details-marker {
+  display: none;
+}
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+.Blue {
+  color: rgb(21 127 180);
+}
+
+.icon-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 0;
+}
+.icon-flex a {
+  color: rgb(21 127 180);
+}
+.herocxe {
+  padding-right: 15%;
+}
+.herocxe h1 {
+  font-size: 38px;
+  line-height: 45px;
+}
+.herocxe h2 {
+  color: #157fb4;
+  font-size: 22px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.herocxe h3 {
+  font-size: 18px;
+}
+.herocxe h3 a {
+  font-weight: 600;
+}
+.herocxe h4 {
+  margin: 10px 0;
+  font-size: 20px;
+  border-top: 1px solid #00000018;
+  font-weight: 600;
+  border-bottom: 1px solid #00000018;
+}
+.blue {
+  color: rgb(21 127 180) !important;
+}
+.t-style {
+  text-align: center;
+  font-size: 45px !important;
+  line-height: 60px !important;
+  font-weight: 500;
+}
+.t-style-2 {
+  font-size: 45px !important;
+  line-height: 60px !important;
+  font-weight: 500;
+  text-align: center;
+}
+.p-style {
+  font-size: 18px;
+  text-align: center;
+  color: #0000007d;
+  max-width: 1100px;
+  margin: auto;
+  line-height: 33px;
+  letter-spacing: 0.4px;
+}
+.p-style-2 {
+  font-size: 18px;
+  color: #0000007d;
+  margin: auto;
+  line-height: 33px;
+  letter-spacing: 0.4px;
+}
+.flexe{
+  display: flex;
+  align-items: center !important;
+  gap: 30px;
+}
+.nove{
+  padding: 20px;
+  width: 25%;
+  height: 280px;
+  background: rgb(235 252 250) !important;
+  border-radius: 10px;
+}
+.nove h2{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+}
+.nove p{
+  font-size: 16px;
+  text-align: center;
+  color: #0000007d;
+  line-height: 25px;
+
+  
+}
+.nove-1{
+  padding: 20px;
+  width: 16.6666666667%;
+  height: 406px;
+  background: rgb(235 252 250) !important;
+  border-radius: 10px;
+}
+.nove-1 h2{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+}
+.nove-1 p{
+  font-size: 16px;
+  text-align: center;
+  color: #0000007d;
+  line-height: 25px;
+
+}
+.nove-3{
+  padding: 20px;
+  width: 20%;
+  height: 406px;
+  background: rgb(235 252 250) !important;
+  border-radius: 10px;
+}
+.nove-3 h2{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+}
+.nove-3 p{
+  font-size: 16px;
+  text-align: center;
+  color: #0000007d;
+  line-height: 25px;
+
+}
+@media screen and (min-width: 480px) {
+  .nove{
+    width: 100%;
+  }
+  .nove-1{
+    width: 100%;
+  }
+  .nove-3{
+    width: 100%;
+  }
+}
