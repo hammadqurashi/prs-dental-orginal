@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/global.css"
+import "../styles/global.css";
 import Layout from "../components/global/Layout";
 import PageHeader from "../components/global/PageHeader";
 import DynamicSeo from "../components/global/DynamicSeo";
@@ -28,28 +28,60 @@ const Vacancies = () => {
               responsible for providing and coordinating patient care in various
               healthcare settings. Registered Nurses assess patient health
               needs, develop and implement nursing care plans, and maintain
-              medical records. They work closely with other healthcare
-              professionals to ensure the well-being and recovery of patients.
+              medical records.
             </p>
             <a href="/contact">Apply Now</a>
           </div>
           <div className="card-11">
             <h2>Apprentice Nurse</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
-              repellendus? Iusto debitis voluptatum velit impedit fuga,
-              inventore cum nesciunt officiis unde tempora quasi, assumenda
-              provident praesentium esse natus vero commodi.
+              Associate Dentist is a licensed dental professional who provides
+              comprehensive dental care to patients. They diagnose and treat
+              dental issues, educate patients about oral health, and promote
+              preventive dental care.
             </p>
             <a href="/contact">Apply Now</a>
           </div>
           <div className="card-11">
-            <h2>Apprentice Nurse</h2>
+            <h2> Dental Therapist</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
-              repellendus? Iusto debitis voluptatum velit impedit fuga,
-              inventore cum nesciunt officiis unde tempora quasi, assumenda
-              provident praesentium esse natus vero commodi.
+              Dental Therapist is a licensed dental professional who works under
+              the supervision of dentists to provide preventive and restorative
+              dental care to patients. Dental Therapists focus on routine dental
+              procedures, such as cleanings, fillings, and preventive
+              treatments.
+            </p>
+            <a href="/contact">Apply Now</a>
+          </div>
+          <div className="card-11">
+            <h2> Dental Hygienist</h2>
+            <p>
+              Dental Hygienist is a licensed dental professional who specializes
+              in preventive oral care. They work closely with dentists to
+              provide dental cleanings, examine patients for signs of oral
+              diseases, and educate patients about proper oral hygiene
+              techniques.
+            </p>
+            <a href="/contact">Apply Now</a>
+          </div>
+          <div className="card-11">
+            <h2> Vocational Training Dentist</h2>
+            <p>
+              Vocational Training Dentist, also known as a Dental Resident or
+              Dental Intern, is a licensed dental professional undergoing
+              advanced training and education in various dental specialties.
+            </p>
+            <a href="/contact">Apply Now</a>
+          </div>
+          <div className="card-11">
+            <h2>Foreign Visa and Sponsorship</h2>
+            <p>
+              A dental practice or healthcare organization is seeking qualified
+              dentists from abroad and offering foreign visa sponsorship to
+              support their relocation and employment. This position is designed
+              to provide skilled dental professionals with an opportunity to
+              work in a new environment, expand their expertise, and contribute
+              to the oral health of the community.
             </p>
             <a href="/contact">Apply Now</a>
           </div>
