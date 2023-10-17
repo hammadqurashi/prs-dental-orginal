@@ -11,7 +11,7 @@ const BlogPage = () => {
                   New Colaboration
                 </p>
               </div>
-              <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+              <h2 className="text-[#4f5859] text-4xl font-semibold max-w-lg mb-6 tracking-tight sm:text-4xl sm:leading-none">
                 Designed by Dentists <br className="hidden md:block" />
                 Developed for You
               </h2>
