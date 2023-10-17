@@ -457,7 +457,7 @@ details > summary::-webkit-details-marker {
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   
-  gap: 0px;
+  gap: 40px;
   height: 100%;
   
 }
@@ -471,8 +471,7 @@ details > summary::-webkit-details-marker {
   
 }
 #item-0 img {
-  width: 260px;
-  border-radius: 50%;
+  width: 100%;
 }
 #item-1 {
 
