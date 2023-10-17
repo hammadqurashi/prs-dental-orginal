@@ -76,12 +76,12 @@ const Vacancies = () => {
           <div className="card-11">
             <h2>Foreign Visa and Sponsorship</h2>
             <p>
-              A dental practice or healthcare organization is seeking qualified
-              dentists from abroad and offering foreign visa sponsorship to
-              support their relocation and employment. This position is designed
-              to provide skilled dental professionals with an opportunity to
-              work in a new environment, expand their expertise, and contribute
-              to the oral health of the community.
+              A parish dental is seeking qualified dentists from abroad and
+              offering foreign visa sponsorship to support their relocation and
+              employment. This position is designed to provide skilled dental
+              professionals with an opportunity to work in a new environment,
+              expand their expertise, and contribute to the oral health of the
+              community.
             </p>
             <a href="/contact">Apply Now</a>
           </div>
