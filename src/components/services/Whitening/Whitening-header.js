@@ -3,7 +3,7 @@ const BlogPage = () => {
   return (
     <section>
       <div className="relative flex flex-col py-16 lg:pt-0 lg:flex-col lg:pb-0">
-        <div className="flex flex-col items-start w-full max-w-xl px-8 lg:px-12">
+        <div className="flex flex-col items-start w-full max-w-xl px-8 lg:px-20">
           <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
             <div className="max-w-xl mb-6">
               
@@ -11,7 +11,7 @@ const BlogPage = () => {
                 Designed by Dentists <br className="hidden md:block" />
                 Developed for You
               </h2>
-              <p className="text-base text-gray-600 md:text-lg">
+              <p className="text-base text-gray-600 md:text-lg mb-6">
                 We offer a carefully curated selection of whitening ranges
                 designed to effectively remove stains and discoloration, giving
                 you the confidence to flash your pearly whites.
