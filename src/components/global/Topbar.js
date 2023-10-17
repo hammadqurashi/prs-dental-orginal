@@ -32,9 +32,9 @@ const Topbar = () => {
         <div className="flex">
           <a
             href="tel:01133228354"
-            className="px-4 flex items-center"
+            className="px-4 redoutline flex items-center"
           >
-            <FiPhone className="mr-2 redoutline" />
+            <FiPhone className="mr-2 " />
             0113 322 8354
           </a>
           <a
