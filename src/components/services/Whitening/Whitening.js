@@ -1,5 +1,5 @@
 import React from "react";
-import WhiteningBanner from "./WhiteningBanner";
+import WhiteningBanner from "./Whitening-header";
 import WhiteningCta from "./WhiteningCta";
 import Range from "./Range";
 import ProductsBanner from "./ProductsBanner";
