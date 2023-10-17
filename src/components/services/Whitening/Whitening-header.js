@@ -7,7 +7,7 @@ const BlogPage = () => {
           <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
             <div className="max-w-xl mb-6">
               
-              <h2 className="head-h2 max-w-lg mb-6 tracking-tight sm:text-4xl sm:leading-none">
+              <h2 className="head-h2 max-w-lg mb-4 tracking-tight sm:text-4xl sm:leading-none">
                 Designed by Dentists <br className="hidden md:block" />
                 Developed for You
               </h2>
