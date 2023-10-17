@@ -24,7 +24,7 @@ const Topbar = () => {
   const topbarData = data?.allContentfulGlobal.nodes[0];
 
   return (
-    <div className="bg-primary text-white py-3 text-sm font-light hidden lg:block">
+    <div className="bg-primary text-white text-sm font-light hidden lg:block">
       <div className="flex justify-between container mx-auto px-10">
         <div className="flex items-center">
           <FiClock className="mr-2" /> <span>Monday to Saturday - 9am to 6pm</span>
@@ -34,7 +34,7 @@ const Topbar = () => {
             href="tel:01133228354"
             className="px-4 flex items-center"
           >
-            <FiPhone className="mr-2" />
+            <FiPhone className="mr-2 redoutline" />
             0113 322 8354
           </a>
           <a
