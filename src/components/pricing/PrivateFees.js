@@ -42,14 +42,14 @@ const PrivateFees = () => {
             <PrivateFeeFiltered category="Crown & Bridge" />
             <PrivateFeeFiltered category="Dentures" />
             <PrivateFeeFiltered category="Prevention" />
-            <PrivateFeeFiltered category="Aesthetics" />
             <div>
               <h3 className="text-primary font-semibold text-2xl mt-8 mb-2">
                 Aesthetics
               </h3>
+              <div className="pla">
               <details>
                 <summary>
-                  <h3 className="text-primary font-semibold text-2xl mt-8 mb-2">
+                  <h3 className="text-primary font-semibold text-xl	 mt-8 mb-2">
                     Dermal Fillers
                   </h3>
                 </summary>
@@ -116,7 +116,7 @@ const PrivateFees = () => {
               </details>
               <details>
                 <summary>
-                  <h3 className="text-primary font-semibold text-2xl mt-8 mb-2">
+                  <h3 className="text-primary font-semibold text-xl mt-8 mb-2">
                     Botox{" "}
                   </h3>
                 </summary>
@@ -163,7 +163,7 @@ const PrivateFees = () => {
               </details>
               <details>
                 <summary>
-                  <h3 className="text-primary font-semibold text-2xl mt-8 mb-2">
+                  <h3 className="text-primary font-semibold text-xl mt-8 mb-2">
                   Others
                   </h3>
                 </summary>
@@ -186,7 +186,7 @@ const PrivateFees = () => {
                   </div>
                 </div>
               </details>
-              
+              </div>
             </div>
 
             <PrivateFeeFiltered category="Other Items" />

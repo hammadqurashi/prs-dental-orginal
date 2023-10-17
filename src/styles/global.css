@@ -447,3 +447,6 @@ details > summary::-webkit-details-marker {
 .outlines{
   border: 6px solid red;
 }
+.pla{
+  padding-left: 25px;
+}
