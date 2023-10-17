@@ -563,8 +563,8 @@ details > summary::-webkit-details-marker {
   color: rgb(21 127 180) !important;
 }
 .pd-0{
-  padding-top: 1px;
-  padding-bottom: 1px;
+  padding-top: 1px!important;
+  padding-bottom: 1px!important;
   margin: 6px;
 }
 .red{
