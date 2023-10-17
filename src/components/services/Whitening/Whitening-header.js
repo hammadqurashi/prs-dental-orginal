@@ -24,7 +24,7 @@ const BlogPage = () => {
               
               </p>
               <h2 className="mb-5 blue text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                Designed by Dentists
+                Designed by Dentists {" "}
                 <br className="hidden md:block" />
                 Developed for You
               </h2>
