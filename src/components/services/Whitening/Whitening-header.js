@@ -16,7 +16,7 @@ const BlogPage = () => {
             </svg>
             <img
               className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
-              src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="https://res.cloudinary.com/db1i46uiv/image/upload/v1696596929/woman-smiling-while-male-dentist-keeping-teeth-color-range_wjzulv.jpg"
               alt=""
             />
           </div>
