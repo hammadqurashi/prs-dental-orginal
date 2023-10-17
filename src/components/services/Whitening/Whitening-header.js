@@ -11,7 +11,7 @@ const BlogPage = () => {
                 Designed by Dentists <br className="hidden md:block" />
                 Developed for You
               </h2>
-              <p className="text-base text-gray-700 md:text-lg">
+              <p className="text-base text-gray-600 md:text-lg">
                 We offer a carefully curated selection of whitening ranges
                 designed to effectively remove stains and discoloration, giving
                 you the confidence to flash your pearly whites.
@@ -20,7 +20,7 @@ const BlogPage = () => {
             <div className="flex flex-col items-center md:flex-row">
               <a
                 href="/"
-                className="inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                className="b-blue inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
               >
                 Book An Appointment
               </a>
