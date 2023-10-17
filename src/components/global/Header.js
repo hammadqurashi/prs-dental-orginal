@@ -17,6 +17,7 @@ const Header = () => {
 
         <div className="flex items-center">
           <Navigation />
+          <div>
           <a
             href="tel:01133228354"
             className="mr-2  font-medium text-gray-600 ml-3 block xl:hidden "
@@ -39,6 +40,7 @@ const Header = () => {
              0113 322 8354
             </Button>
           </a>
+          </div>
 
           <Burger open={openDrawer} setOpen={setOpenDrawer} />
         </div>
