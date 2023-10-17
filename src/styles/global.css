@@ -420,7 +420,12 @@ details > summary::-webkit-details-marker {
   }
 }
 
-@font-facemedia (min-width: 960px)
+@media (min-width: 960px){
 .head-1280 {
     max-width: 1280px;
+}
+.head-h2{
+  font-size: 48px;
+    line-height: 57px;
+}
 }
