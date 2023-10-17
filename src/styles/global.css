@@ -419,3 +419,8 @@ details > summary::-webkit-details-marker {
     width: 100%;
   }
 }
+
+@font-facemedia (min-width: 960px)
+.head-1280 {
+    max-width: 1280px;
+}
