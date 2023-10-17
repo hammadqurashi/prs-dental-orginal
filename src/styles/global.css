@@ -342,213 +342,223 @@ details > summary::-webkit-details-marker {
   line-height: 33px;
   letter-spacing: 0.4px;
 }
-.flexe{
+.flexe {
   display: flex;
   align-items: center !important;
   gap: 30px;
 }
-.nove{
+.nove {
   padding: 20px;
   width: 25%;
   height: 280px;
   background: rgb(235 252 250) !important;
   border-radius: 10px;
 }
-.nove h2{
+.nove h2 {
   font-weight: 500;
   font-size: 24px;
   line-height: 35px;
   text-align: center;
 }
-.nove p{
+.nove p {
   font-size: 16px;
   text-align: center;
   color: #0000007d;
   line-height: 25px;
-
-  
 }
 
 .b-blue {
   background-color: rgb(21 127 180) !important;
 }
-.nove-1{
+.nove-1 {
   padding: 20px;
   width: 16.6666666667%;
   height: 406px;
   background: rgb(235 252 250) !important;
   border-radius: 10px;
 }
-.nove-1 h2{
+.nove-1 h2 {
   font-weight: 500;
   font-size: 24px;
   line-height: 35px;
   text-align: center;
 }
-.nove-1 p{
+.nove-1 p {
   font-size: 16px;
   text-align: center;
   color: #0000007d;
   line-height: 25px;
-
 }
-.nove-3{
+.nove-3 {
   padding: 20px;
   width: 20%;
   height: 406px;
   background: rgb(235 252 250) !important;
   border-radius: 10px;
 }
-.nove-3 h2{
+.nove-3 h2 {
   font-weight: 500;
   font-size: 24px;
   line-height: 35px;
   text-align: center;
 }
-.nove-3 p{
+.nove-3 p {
   font-size: 16px;
   text-align: center;
   color: #0000007d;
   line-height: 25px;
-
 }
 @media screen and (min-width: 480px) {
-  .nove{
+  .nove {
     width: 100%;
   }
-  .nove-1{
+  .nove-1 {
     width: 100%;
   }
-  .nove-3{
+  .nove-3 {
     width: 100%;
   }
 }
 
-@media (min-width: 960px){
-.head-1280 {
+@media (min-width: 960px) {
+  .head-1280 {
     max-width: 1280px;
-}
-.head-h2{
-  font-size: 48px;
+  }
+  .head-h2 {
+    font-size: 48px;
     line-height: 57px;
+  }
 }
-}
-.head-h2{
+.head-h2 {
   font-size: 42px !important;
-    line-height: 54px !important;
-    font-weight: 500 !important;
-    color: rgb(21 127 180) !important;
-    
+  line-height: 54px !important;
+  font-weight: 500 !important;
+  color: rgb(21 127 180) !important;
 }
-.redoutline{
+.redoutline {
   padding: 0.75rem;
   border: 4px solid red;
 }
-.outlines{
+.outlines {
   border: 6px solid red;
 }
-.pla{
+.pla {
   padding-left: 25px;
 }
 
 .angry-grid {
-  display: grid; 
+  display: grid;
 
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  
+
   gap: 40px;
   height: 100%;
-  
 }
- 
+
 #item-0 {
   grid-row-start: 1;
   grid-column-start: 1;
 
   grid-row-end: 2;
   grid-column-end: 2;
-  
 }
 #item-0 img {
   width: 100%;
 }
 #item-1 {
-
-  background-color: #DCBC7D; 
+  background-color: #dcbc7d;
   grid-row-start: 1;
   grid-column-start: 2;
 
   grid-row-end: 2;
   grid-column-end: 4;
-  
 }
 #item-2 {
-
-  background-color: #79F9BB; 
+  background-color: #79f9bb;
   grid-row-start: 2;
   grid-column-start: 1;
 
   grid-row-end: 5;
   grid-column-end: 2;
-  
 }
 #item-3 {
-
-  background-color: #CD997B; 
+  background-color: #cd997b;
   grid-row-start: 2;
   grid-column-start: 2;
 
   grid-row-end: 3;
   grid-column-end: 3;
-  
 }
 #item-4 {
-
-  background-color: #F7B66D; 
+  background-color: #f7b66d;
   grid-row-start: 2;
   grid-column-start: 3;
 
   grid-row-end: 3;
   grid-column-end: 4;
-  
 }
 #item-5 {
-
-  background-color: #FD9699; 
+  background-color: #fd9699;
   grid-row-start: 3;
   grid-column-start: 2;
 
   grid-row-end: 4;
   grid-column-end: 3;
-  
 }
 #item-6 {
-
-  background-color: #59D5BC; 
+  background-color: #59d5bc;
   grid-row-start: 3;
   grid-column-start: 3;
 
   grid-row-end: 4;
   grid-column-end: 4;
-  
 }
 #item-7 {
-
-  background-color: #B85955; 
+  background-color: #b85955;
   grid-row-start: 4;
   grid-column-start: 2;
 
   grid-row-end: 5;
   grid-column-end: 3;
-  
 }
 #item-8 {
-
-  background-color: #795CFB; 
+  background-color: #795cfb;
   grid-row-start: 4;
   grid-column-start: 3;
 
   grid-row-end: 5;
   grid-column-end: 4;
+}
+
+.mainteb {
+  margin: auto;
+  max-width: 1280px;
+  padding: 140px 40px;
+}
+.card-v {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+.card-11 {
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.card-11 h2 {
+  color: rgb(21 127 180) !important;
+  font-size: 30px;
+  line-height: 45px;
+  padding-bottom: 8px;
+  font-weight: 500;
+}
+.card-11 p {
+  color: #0000007d;
+  padding-bottom: 8px;
+}
+.card-11 a {
+  text-decoration: underline;
+  color: rgb(21 127 180) !important;
 }
