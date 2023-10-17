@@ -1,5 +1,5 @@
 import React from "react";
-import ClearAlignersBaner from "./ClearAlignersBaner";
+import ClearAlignersBaner from "./clear-header";
 import ClrarContent from "./ClrarContent";
 import Faq from "./Faq";
 import ContactInfo from "./ContactInfo";
