@@ -24,7 +24,7 @@ const Header = () => {
           >
             <Button
               variant="outlined"
-              className=" flex items-center text-sm px-1.5 whitespace-nowrap"
+              className=" flex red pd-0 items-center text-sm px-1.5 whitespace-nowrap"
             >
              0113 322 8354
             </Button>
@@ -35,7 +35,7 @@ const Header = () => {
           >
             <Button
               variant="outlined"
-              className=" flex items-center text-sm px-1.5 whitespace-nowrap"
+              className=" flex pd-0 items-center text-sm px-1.5 whitespace-nowrap"
             >
              0113 322 8354
             </Button>
