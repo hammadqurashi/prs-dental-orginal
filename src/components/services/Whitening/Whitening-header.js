@@ -3,14 +3,10 @@ const BlogPage = () => {
   return (
     <section>
       <div className="relative flex flex-col py-16 lg:pt-0 lg:flex-col lg:pb-0">
-        <div className="flex flex-col items-start w-full max-w-xl px-4 lg:px-12">
+        <div className="flex flex-col items-start w-full max-w-xl px-8 lg:px-12">
           <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
             <div className="max-w-xl mb-6">
-              <div>
-                <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-                  New Colaboration
-                </p>
-              </div>
+              
               <h2 className="head-h2 max-w-lg mb-6 tracking-tight sm:text-4xl sm:leading-none">
                 Designed by Dentists <br className="hidden md:block" />
                 Developed for You

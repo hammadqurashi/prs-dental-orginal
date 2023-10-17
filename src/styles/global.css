@@ -430,6 +430,6 @@ details > summary::-webkit-details-marker {
 }
 }
 .head-h2{
-  font-size: 48px;
-    line-height: 57px;
+  font-size: 45px !important;
+    line-height: 54px !important;
 }
