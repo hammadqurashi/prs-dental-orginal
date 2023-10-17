@@ -463,14 +463,16 @@ details > summary::-webkit-details-marker {
 }
  
 #item-0 {
-
-  background-color: #BDE5DD; 
   grid-row-start: 1;
   grid-column-start: 1;
 
   grid-row-end: 2;
   grid-column-end: 2;
   
+}
+#item-0 img {
+  width: 260px;
+  border-radius: 50%;
 }
 #item-1 {
 
