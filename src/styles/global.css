@@ -563,11 +563,14 @@ details > summary::-webkit-details-marker {
   color: rgb(21 127 180) !important;
 }
 .pd-0{
-  padding-top: 1px!important;
-  padding-bottom: 1px!important;
+  padding-top: 1px !important;
+  padding-bottom: 1px !important;
   margin: 6px;
 }
 .red{
-  color: red!important;
-  border: 1px solid red!important;
+  color: red !important;
+  border: 1px solid red !important;
+}
+.mp3p{
+  margin-bottom: 3px;
 }
