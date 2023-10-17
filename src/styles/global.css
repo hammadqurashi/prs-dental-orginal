@@ -558,7 +558,7 @@ details > summary::-webkit-details-marker {
   color: #0000007d;
   padding-bottom: 8px;
 }
-.card-11 a {
+.card-11 a{
   text-decoration: underline;
   color: rgb(21 127 180) !important;
 }
