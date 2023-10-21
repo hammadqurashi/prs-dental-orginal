@@ -5,8 +5,9 @@ export const navPages = [
   { id: 4, name: "Pricing", route: "/pricing" },
   { id: 5, name: "Contact", route: "/contact" },
   { id: 6, name: "Team", route: "/meet-the-team" },
-  { id: 7, name: "Blogs", route: "/blogs" },
-  { id: 8, name: "Shop", route: "/shop" },
+  { id: 7, name: "Vacancies", route: "/vacancies" },
+  { id: 8, name: "Blogs", route: "/blogs" },
+  { id: 9, name: "Shop", route: "/shop" },
 ];
 
 export const policyPages = [
