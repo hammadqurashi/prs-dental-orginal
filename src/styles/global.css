@@ -597,5 +597,24 @@ details > summary::-webkit-details-marker {
 }
 .container-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
+  gap: 45px;
+}
+.container-grid .left .image img {
+  width: 325px;
+}
+.container-grid .left .image hr {
+  height: 40px;
+  border-bottom: 40px solid #FF48A469;
+  padding-top: 50px;
+}
+.container-grid .left .image p {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 18px;
+}
+.cardlist {
+  background-color: #f5f5dc75;
+  padding: 25px;
+  margin: 40px 0;
 }
