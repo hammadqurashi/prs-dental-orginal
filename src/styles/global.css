@@ -558,41 +558,71 @@ details > summary::-webkit-details-marker {
   color: #0000007d;
   padding-bottom: 8px;
 }
-.card-11 a{
+.card-11 a {
   text-decoration: underline;
   color: rgb(21 127 180) !important;
 }
-.pd-0{
+.pd-0 {
   padding-top: 1px !important;
   padding-bottom: 1px !important;
   margin: 6px;
 }
-.red{
+.red {
   color: red !important;
   border: 1px solid red !important;
 }
-.vlue{
+.vlue {
   color: #795cfb !important;
   border: 1px solid #795cfb !important;
 }
-.mp3p{
+.mp3p {
   margin-bottom: 3px;
 }
-.redboder{
+.redboder {
   outline: 5px solid red !important;
   border-radius: 5px !important;
 }
 
-.rd{
+.rd {
   color: red !important;
 }
-.bl{
+.bl {
   color: #795cfb !important;
 }
 
 @media only screen and (max-width: 640px) {
   .card-v {
     display: flex;
-
   }
+}
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.9fr 1.1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "image intro intro"
+    "desc desc2 desc2"
+    "desc desc2 desc2";
+}
+
+.image {
+  grid-area: image;
+  color: red;
+}
+
+.intro {
+  grid-area: intro;
+  color: beige;
+}
+
+.desc {
+  grid-area: desc;
+  color: yellow;
+}
+
+.desc2 {
+  grid-area: desc2;
+  color: #59d5bc;
 }
