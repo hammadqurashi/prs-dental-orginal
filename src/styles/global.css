@@ -571,6 +571,10 @@ details > summary::-webkit-details-marker {
   color: red !important;
   border: 1px solid red !important;
 }
+.vlue{
+  color: #795cfb !important;
+  border: 1px solid #795cfb !important;
+}
 .mp3p{
   margin-bottom: 3px;
 }
