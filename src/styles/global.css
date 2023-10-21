@@ -647,12 +647,12 @@ details > summary::-webkit-details-marker {
   font-size: 18px;
 }
 
-.introduction h4 {
+.right .intro .introduction h4 {
   font-size: 40px;
   font-weight: 600;
   color: rgb(21 127 180);
 }
-.introduction h4 {
+.right .intro .introduction h4 {
   font-size: 20px;
   color: #000000b3;
   padding: 10px 0;
