@@ -590,7 +590,7 @@ details > summary::-webkit-details-marker {
   color: #795cfb !important;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
   .card-v {
     grid-template-columns: 1fr;
 }
