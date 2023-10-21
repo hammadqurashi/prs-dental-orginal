@@ -30,14 +30,14 @@ const Header = () => {
             </Button>
           </a>
           <a
-            href="tel:01133228354"
+            href="tel:01132638509"
             className="mr-2  font-medium text-gray-600 ml-3 block xl:hidden "
           >
             <Button
               variant="outlined"
               className=" flex vlue pd-0 items-center text-sm px-1.5 whitespace-nowrap"
             >
-             0113 322 8354
+             0113 263 8509
             </Button>
           </a>
           </div>
