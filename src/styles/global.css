@@ -594,6 +594,9 @@ details > summary::-webkit-details-marker {
   .card-v {
     display: flex;
   }
+  .container-grid {
+    grid-template-columns: 1fr ;
+  }
 }
 .container-grid {
   display: grid;
