@@ -578,3 +578,7 @@ details > summary::-webkit-details-marker {
 .mp3p{
   margin-bottom: 3px;
 }
+.redboder{
+  outline: 5px solid red !important;
+  border-radius: 5px !important;
+}

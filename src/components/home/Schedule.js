@@ -23,7 +23,7 @@ const Schedule = () => {
   const phone = data?.allContentfulGlobal?.nodes[0].phone;
 
   return (
-    <aside className="bg-backgroundSecondary rounded pt-10 flex flex-col justify-between">
+    <aside className=" redboder bg-backgroundSecondary rounded pt-10 flex flex-col justify-between">
       <h3 className="text-center text-primary text-3xl font-medium">
         Working Hours
       </h3>
@@ -45,7 +45,7 @@ const Schedule = () => {
         ))}
       </div>
       <a
-        className=" outlines bg-primary w-full block rounded-b text-center py-6 text-white"
+        className="  bg-primary w-full block rounded-b text-center py-6 text-white"
         href={"tel:01133228354"}
       >
         OUT OF HOURS CALL EMERGENCY LINE FOR PRIVATE APPTS ONLY – 0113 322 8354
