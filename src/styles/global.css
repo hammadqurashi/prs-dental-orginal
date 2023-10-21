@@ -630,3 +630,20 @@ details > summary::-webkit-details-marker {
   margin: 10px 0;
   color: #ff48a4;
 }
+.box-cin{
+  padding: 40px;
+  border: 3px solid;
+  border-radius: 4px;
+}
+
+.box-cin h4{
+  font-size: 26px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  color: rgb(21 127 180);
+}
+.box-cin p{
+ padding: 8px 0;
+ font-size: 18px;
+}
+
