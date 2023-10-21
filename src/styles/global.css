@@ -618,3 +618,15 @@ details > summary::-webkit-details-marker {
   padding: 25px;
   margin: 40px 0;
 }
+.cardlist img{
+  width: 85px;
+}
+
+.cardlist h5{
+  font-size: 37px;
+  font-style: italic;
+  font-weight: 600;
+  background-color: white;
+  margin: 10px 0;
+  color: #ff48a4;
+}
