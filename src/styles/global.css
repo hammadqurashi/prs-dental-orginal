@@ -589,3 +589,9 @@ details > summary::-webkit-details-marker {
 .bl{
   color: #795cfb !important;
 }
+
+@media only screen and (max-width: 800px) {
+  .card-v {
+    grid-template-columns: 100%;
+}
+}
