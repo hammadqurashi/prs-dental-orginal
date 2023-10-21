@@ -648,18 +648,20 @@ details > summary::-webkit-details-marker {
 .box-cin p {
   padding: 8px 0;
   font-size: 18px;
+  color: #000000b3;
+  line-height: 32px;
 }
 
 .right .intro .introduction h4 {
-  font-size: 40px;
-  font-weight: 600;
+  font-size: 26px;
+  font-weight: 700;
   color: rgb(21 127 180);
 }
-.right .intro .introduction h4 {
-  font-size: 20px;
+.right .intro .introduction p {
+  font-size: 18px;
   color: #000000b3;
   padding: 10px 0;
-  line-height: 35px;
+  line-height: 32px;
   text-align: justify;
   padding-right: 100px;
   padding-bottom: 65px;
@@ -669,4 +671,16 @@ details > summary::-webkit-details-marker {
   grid-template-columns: 1fr 1fr;
   gap: 45px;
   padding: 40px 0;
+}
+
+.dilog-1 h4 {
+  font-size: 26px;
+  font-weight: 700;
+  color: rgb(21 127 180);
+}
+.dilog-1 p {
+  font-size: 18px;
+  color: #000000b3;
+  padding: 10px 0;
+  line-height: 32px;
 }
