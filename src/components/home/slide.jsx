@@ -76,7 +76,7 @@ export default function App() {
             <div className="content">
               <div className="right">
                 <h3 className="tracking-[0.2em] uppercase bg-secondary text-white text-xs lg:text-sm px-3 py-2 inline-block rounded">
-                  DENTAL PRACTICE
+                Exclusive Offer
                 </h3>
                 <h2 className="text-3xl sm:text-3xl md:text-4xl text-primary font-semibold capitalize my-2">
                   <span className="inline-block bg-white my-1 px-3 py-2 rounded">

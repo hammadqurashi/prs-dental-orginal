@@ -30,8 +30,11 @@ const ContactInfo = () => {
       >
         hello@parishdental.co.uk{" "}
       </a>
-      <a className="text-secondary my-2" href={`tel:${contactData?.phone}`}>
+      <a className="text-secondary bl my-2" href={`tel:${contactData?.phone}`}>
         {contactData?.phone}
+      </a>
+      <a className="text-secondary rd my-2" href="tel:01133228354">
+      0113 322 8354
       </a>
       <div className="icon-flex">
         <a

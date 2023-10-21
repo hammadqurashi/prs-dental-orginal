@@ -582,3 +582,10 @@ details > summary::-webkit-details-marker {
   outline: 5px solid red !important;
   border-radius: 5px !important;
 }
+
+.rd{
+  color: red !important;
+}
+.bl{
+  color: #795cfb !important;
+}
