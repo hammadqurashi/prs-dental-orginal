@@ -16,7 +16,7 @@ const WhyChooseUs = () => {
           </p>
         </div>
         <div className="cardlist">
-          <img src="" alt="" />
+          <h1>&#x201d;</h1>
           <h5>
             Honoring a Visionary, <br />
             Building a Legacy
