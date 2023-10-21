@@ -605,7 +605,7 @@ details > summary::-webkit-details-marker {
 }
 .container-grid .left .image hr {
   height: 40px;
-  border-bottom: 40px solid #FF48A469;
+  border-bottom: 40px solid #ff48a469;
   padding-top: 50px;
 }
 .container-grid .left .image p {
@@ -618,11 +618,11 @@ details > summary::-webkit-details-marker {
   padding: 25px;
   margin: 40px 0;
 }
-.cardlist img{
+.cardlist img {
   width: 85px;
 }
 
-.cardlist h5{
+.cardlist h5 {
   font-size: 37px;
   font-style: italic;
   font-weight: 600;
@@ -630,20 +630,34 @@ details > summary::-webkit-details-marker {
   margin: 10px 0;
   color: #ff48a4;
 }
-.box-cin{
+.box-cin {
   padding: 40px;
   border: 3px solid;
   border-radius: 4px;
 }
 
-.box-cin h4{
+.box-cin h4 {
   font-size: 26px;
   padding-bottom: 10px;
   font-weight: 700;
   color: rgb(21 127 180);
 }
-.box-cin p{
- padding: 8px 0;
- font-size: 18px;
+.box-cin p {
+  padding: 8px 0;
+  font-size: 18px;
 }
 
+.introduction h4 {
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(21 127 180);
+}
+.introduction h4 {
+  font-size: 20px;
+  color: #000000b3;
+  padding: 10px 0;
+  line-height: 35px;
+  text-align: justify;
+  padding-right: 100px;
+  padding-bottom: 65px;
+}
