@@ -597,32 +597,5 @@ details > summary::-webkit-details-marker {
 }
 .container-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.9fr 1.1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "image intro intro"
-    "desc desc2 desc2"
-    "desc desc2 desc2";
-}
-
-.image {
-  grid-area: image;
-  color: red;
-}
-
-.intro {
-  grid-area: intro;
-  color: beige;
-}
-
-.desc {
-  grid-area: desc;
-  color: yellow;
-}
-
-.desc2 {
-  grid-area: desc2;
-  color: #59d5bc;
+  grid-template-columns: 1fr 1fr
 }
