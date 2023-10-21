@@ -48,7 +48,7 @@ const ContactPageForm = () => {
             <li> - option 2 Private</li>
             <li> - option 3 Private Emergency</li>
           </ul>
-          <h2>Emergency Dentist </h2>
+          <h2>Private Dentist </h2>
           <h4>0113 322 8354</h4>
           <h3>
             Emergency 247 Dentist –{" "}
