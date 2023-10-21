@@ -33,7 +33,7 @@ const Vacancies = () => {
             <a href="/contact">Apply Now</a>
           </div>
           <div className="card-11">
-            <h2>Apprentice Nurse</h2>
+            <h2>Associate dentist</h2>
             <p>
               Associate Dentist is a licensed dental professional who provides
               comprehensive dental care to patients. They diagnose and treat
