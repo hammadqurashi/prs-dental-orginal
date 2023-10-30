@@ -98,7 +98,7 @@ export default function App() {
                     size="lg"
                   >
                     <BsFillCalendarDateFill className="mr-3 text-lg" />
-                    Appointment
+                    Register now
                   </Button>
                 </div>
               </div>
