@@ -31,11 +31,11 @@ const ContactInfo = () => {
         hello@parishdental.co.uk{" "}
       </a>
       <a className="text-secondary bl my-2" href={`tel:${contactData?.phone}`}>
-        {contactData?.phone}
+      0113 263 8509 - NHS
       </a>
       <br/>
       <a className="text-secondary rd my-2" href="tel:01133228354">
-      0113 322 8354
+      0113 322 8354 - PRIVATE 24/7
       </a>
       <div className="icon-flex">
         <a
