@@ -10,7 +10,6 @@ const AboutPage = () => {
   return (
     <Layout>
       <PageHeader pageTitle="About" />
-      <WhoWeAre />
       <AboutMe/>
       <Faq />
     </Layout>

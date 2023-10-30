@@ -66,7 +66,7 @@ const WhyChooseUs = () => {
                   aspirations were further fueled by a compassionate heart, an
                   innovative spirit, and an unwavering determination to make a
                   difference.
-                  <br />
+                  <br /> <br /> <br />
                   Pavan's life was a testament to his commitment to his
                   community and his dedication to providing accessible, high-
                   quality dental care. He dreamed of opening a dental clinic
@@ -75,7 +75,7 @@ const WhyChooseUs = () => {
                   experience.
                 </p>
                 <br />
-                <br />
+                <br /> <br />
                 <h4>The Vision Lives On</h4>
                 <p>
                   Tragically, Pavan's life was cut short before he could realize
@@ -94,7 +94,7 @@ const WhyChooseUs = () => {
                   purifiers, ensuring that communities had access to clean and
                   fresh air, especially during the challenging times of the
                   COVID- 19 pandemic.
-                  <br />
+                  <br /> <br /> <br />
                   His commitment to healthcare innovation also encompassed
                   supporting NHS dental practices, NHS spirometry facilities,
                   and NHS abortion clinics. He understood the importance of
@@ -102,7 +102,7 @@ const WhyChooseUs = () => {
                   his contributions to these critical healthcare sectors
                   exemplify his dedication to improving people's lives through
                   innovation and compassion.
-                  <br />
+                  <br /> <br /> <br />
                   The Pavan Bhogal Memorial Dental Clinic is an embodiment of
                   his holistic approach to healthcare, striving to provide not
                   only advanced dental services but also contributing to the
