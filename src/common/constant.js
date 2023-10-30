@@ -19,4 +19,5 @@ export const policyPages = [
   { id: 6, name: "Sitemap", route: "/sitemap" },
   { id: 7, name: "Parish Dental Practice Policy ", route: "/parish-dental-practice-policy " },
   { id: 8, name: "Vacancies", route: "/vacancies" },
+  { id: 9, name: "FAQ", route: "/faq" },
 ];

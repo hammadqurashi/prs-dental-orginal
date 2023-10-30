@@ -73,7 +73,7 @@ export default function Faq() {
   const section = data?.contentfulPages.blocks[2];
 
   return (
-    <section className="container mx-auto px-10 flex flex-col lg:flex-row mb-20">
+    <section className="container mx-auto px-10 flex flex-col lg:flex-row my-40">
       <div className="w-full lg:w-1/2 bg-white mb-5">
         <h2 className="text-4xl text-primary font-semibold mb-5 mt-2">
           {section.mainTitle}
