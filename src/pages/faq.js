@@ -9,8 +9,8 @@ import DynamicSeo from "../components/global/DynamicSeo";
 const AboutPage = () => {
   return (
     <Layout>
-      <PageHeader pageTitle="About" />
-      <AboutMe/>
+      <PageHeader pageTitle="FAQ" />
+      <Faq />
     </Layout>
   );
 };

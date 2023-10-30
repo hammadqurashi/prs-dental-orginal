@@ -674,7 +674,7 @@ details > summary::-webkit-details-marker {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 45px;
-  padding: 40px 0;
+  padding: 10px 0;
 }
 
 .dilog-1 h4 {
