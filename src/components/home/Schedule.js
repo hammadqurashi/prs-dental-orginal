@@ -45,10 +45,17 @@ const Schedule = () => {
         ))}
       </div>
       <a
-        className="  bg-primary w-full block rounded-b text-center py-6 text-white"
+        className="  rd w-full block text-center py-6 text-white"
         href={"tel:01133228354"}
       >
         OUT OF HOURS CALL EMERGENCY LINE FOR PRIVATE APPTS ONLY – 0113 322 8354
+      </a>
+      <a
+        className="  bg-primary w-full block rounded-b text-center py-6 text-white"
+        href={"tel:01133228354"}
+      >
+        FOR NHS PATIENTS CALL 0113 322 8354 between Monday to Friday 9am to 5am,
+        and for NHS EMERGENCIES call 111
       </a>
     </aside>
   );

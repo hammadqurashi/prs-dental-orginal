@@ -26,7 +26,7 @@ const Header = () => {
               variant="outlined"
               className=" flex mb3p red pd-0 items-center text-sm px-1.5 whitespace-nowrap"
             >
-             0113 322 8354 - Pvt
+             0113 322 8354 - Pvt.
             </Button>
           </a>
           <a
