@@ -28,10 +28,9 @@ const PrivateFees = () => {
     <>
       <section className="w-full bg-white">
         <div className="py-24 mx-auto container px-10 ">
-          <SectionHeader
-            mainTitle={header?.mainTitle}
-            description={header?.description?.description}
-          />
+        <h2 className="text-center text-5xl my-2 capitalize font-semibold text-primary">
+        Parish Dental Pricing
+      </h2>
 
           <div className="mt-3">
             <PrivateFeeFiltered category={null} />
