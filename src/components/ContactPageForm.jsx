@@ -26,7 +26,7 @@ const ContactPageForm = () => {
   const contactData = data?.contentfulPages.blocks[3];
   return (
     <>
-      <h1 className=" hero my-14">Find the right point of contact for you</h1>
+      <h1 className="f-top hero my-14">Find the right point of contact for you</h1>
       <section className="container mx-auto px-10 flex flex-col lg:flex-row items-center mb-24 mt-10">
         <div className="w-full lg:w-1/2 lg:p-10">
           <div className="herocxe">
