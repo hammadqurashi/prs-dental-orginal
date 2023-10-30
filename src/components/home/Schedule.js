@@ -45,7 +45,7 @@ const Schedule = () => {
         ))}
       </div>
       <a
-        className="  rd w-full block text-center py-6 text-white"
+        className="  bg-rd w-full block text-center py-6 text-white"
         href={"tel:01133228354"}
       >
         OUT OF HOURS CALL EMERGENCY LINE FOR PRIVATE APPTS ONLY – 0113 322 8354

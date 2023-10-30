@@ -586,6 +586,10 @@ details > summary::-webkit-details-marker {
 .rd {
   color: red !important;
 }
+.bg-rd {
+  background-color: red !important;
+}
+
 .bl {
   color: #795cfb !important;
 }
