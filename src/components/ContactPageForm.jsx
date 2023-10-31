@@ -84,7 +84,6 @@ const ContactPageForm = () => {
           <ReactMarkdown className="text-gray-600 mx-auto my-5 text-base leading-8">
             {contactData?.description?.description}
           </ReactMarkdown>
-          <QueriesForm inputBg="bg-white" />
           <QuerieForm />
         </div>
       </section>
