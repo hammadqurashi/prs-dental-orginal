@@ -51,7 +51,6 @@ const Contact = () => {
   };
   return (
     <form
-      action="/"
       method="post"
       className="contact_form"
       id="contact_form"
