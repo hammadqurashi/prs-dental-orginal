@@ -31,9 +31,8 @@ export const ContactUs = () => {
       <input placeholder="Phone Number" type="number" name="number" />
       <input placeholder="Email" type="email" name="user_email" />
       <textarea placeholder="Message" name="message" />
-      <input type="submit" value="Send" />
-      <a id="send_message" href="#" value="Send">
-        <span>Submit Message </span>
+      <a href="#">
+        <input type="submit" value="Send" />
       </a>
     </form>
   );
