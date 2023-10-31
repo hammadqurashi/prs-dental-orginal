@@ -40,6 +40,7 @@
     "axios": "^1.4.0",
     "dayjs": "^1.11.10",
     "emailjs": "^4.0.3",
+    "emailjs-com": "^3.2.0",
     "embla-carousel-react": "^7.1.0",
     "framer-motion": "^10.16.0",
     "gatsby": "^5.11.0",
