@@ -1,18 +1,16 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { NormalButton } from "./Button";
+import { useNavigate } from "react-router-dom";
 
 export const ContactUs = () => {
   const form = useRef();
 
 
-  const [error, setError] = useState(null);
+  const navigate = useNavigate();
   const sendEmail = (e) => {
     e.preventDefault();
-    if (first_name.length === 0 || user_email.length === 0 || message.length === 0) {
-      setError(true);
-      clearError();
-    } else {
+    navigate("/");
     emailjs
       .sendForm(
         "service_fdpjl7j",
