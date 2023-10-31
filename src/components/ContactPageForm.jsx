@@ -3,6 +3,7 @@ import React from "react";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import { StaticImage } from "gatsby-plugin-image";
 import QueriesForm from "./global/QueriesForm";
+import QuerieForm from "./global/QueriesForm";
 
 const ContactPageForm = () => {
   const data = useStaticQuery(graphql`
@@ -84,6 +85,7 @@ const ContactPageForm = () => {
             {contactData?.description?.description}
           </ReactMarkdown>
           <QueriesForm inputBg="bg-white" />
+          <QuerieForm />
         </div>
       </section>
     </>
