@@ -10,7 +10,7 @@ export const ContactUs = () => {
   const navigate = useNavigate();
   const sendEmail = (e) => {
     e.preventDefault();
-    navigate("/");
+    
     emailjs
       .sendForm(
         "service_fdpjl7j",
@@ -76,7 +76,7 @@ export const ContactUs = () => {
           type="submit"
           value="Send"
         />
-        <NormalButton
+        <NormalButton onClick={navigate("/")}
           variant={"blue"}
           className="px-3  w-full py-3 flex justify-center items-center"
           type="submit"
