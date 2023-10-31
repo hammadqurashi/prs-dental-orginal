@@ -36,4 +36,4 @@ export const ContactUs = () => {
   );
 };
 
-export default ContactPageForm;
+export default ContactUs;
