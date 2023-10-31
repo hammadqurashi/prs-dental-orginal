@@ -1,8 +1,11 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import Loader from "./Loader";
+import { NormalButton } from "./Button";
 
 export const ContactUs = () => {
   const form = useRef();
+  const [isLoading] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -62,6 +65,15 @@ export const ContactUs = () => {
           type="submit"
           value="Send"
         />
+        <NormalButton
+          disabled={isLoading ? true : false}
+          variant={"blue"}
+          className="px-3  w-full py-3 flex justify-center items-center"
+          type="submit"
+        >
+          {isLoading ? <Loader /> : null}
+          Submit
+        </NormalButton>
       </a>
     </form>
   );
