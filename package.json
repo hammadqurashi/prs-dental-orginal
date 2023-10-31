@@ -39,6 +39,7 @@
     "@tiptap/starter-kit": "^2.1.12",
     "axios": "^1.4.0",
     "dayjs": "^1.11.10",
+    "emailjs": "^4.0.3",
     "embla-carousel-react": "^7.1.0",
     "framer-motion": "^10.16.0",
     "gatsby": "^5.11.0",
