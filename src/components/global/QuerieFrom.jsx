@@ -1,14 +1,18 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import Loader from "./Loader";
 import { NormalButton } from "./Button";
 
 export const ContactUs = () => {
   const form = useRef();
 
+
+  const [error, setError] = useState(null);
   const sendEmail = (e) => {
     e.preventDefault();
-
+    if (first_name.length === 0 || user_email.length === 0 || message.length === 0) {
+      setError(true);
+      clearError();
+    } else {
     emailjs
       .sendForm(
         "service_fdpjl7j",
@@ -28,6 +32,16 @@ export const ContactUs = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail}>
+      <div
+            className={error ? "empty_notice" : "returnmessage"}
+            style={{ display: error == null ? "none" : "block" }}
+          >
+            <span>
+              {error
+                ? "Please Fill Required Fields"
+                : "We will contact you soon."}
+            </span>
+          </div>
       <input
         className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
         placeholder="First Name"
