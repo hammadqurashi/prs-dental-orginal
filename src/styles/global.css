@@ -696,3 +696,9 @@ details > summary::-webkit-details-marker {
   color: rgb(21 127 180);
 
 }
+.blc{
+  background-color:  rgb(21 127 180);
+  color: white !important;
+  border-radius: 4px;
+  cursor: pointer;
+}
