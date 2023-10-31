@@ -1,110 +1,42 @@
+import React, { Fragment } from "react";
 import emailjs from "emailjs-com";
-import { useState } from "react";
 
-const Contact = () => {
-  const [mailData, setMailData] = useState({
-    name: "",
-    email: "",
-    topic: "",
-  });
-  const { name, email, topic } = mailData;
-  const [error, setError] = useState(null);
-  const onChange = (e) =>
-    setMailData({ ...mailData, [e.target.name]: e.target.value });
-  const onSubmit = (e) => {
+const ContactUs = () => {
+  function sendEmail(e) {
     e.preventDefault();
-    if (name.length === 0 || email.length === 0 || topic.length === 0) {
-      setError(true);
-      clearError();
-    } else {
-      emailjs
-        .send(
-          "service_fdpjl7j",
-          "template_qwpl58r",
-          mailData,
-          "KOS94cM91AU01eTnJ"
-        )
-        .then(
-          (response) => {
-            setError(false);
-            clearError();
-            setMailData({ name: "", email: "", topic: "" });
-          },
-          (err) => {
-            console.log(err.text);
-          }
-        );
-    }
-  };
-  const clearError = () => {
-    setTimeout(() => {
-      setError(null);
-    }, 2000);
-  };
+
+    emailjs
+      .sendForm(
+        "service_fdpjl7j",
+        "template_qwpl58r",
+        e.target,
+        "KOS94cM91AU01eTnJ"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  }
+
   return (
-    <>
-      <div className="frommzz ">
-        <form
-          action="/"
-          method="post"
-          className="contact_form"
-          id="contact_form"
-          autoComplete="off"
-          onSubmit={(e) => onSubmit(e)}
-        >
-          <div
-            className={error ? "empty_notice" : "returnmessage"}
-            style={{ display: error == null ? "none" : "block" }}
-          >
-            <span>
-              {error
-                ? "Please Fill Required Fields"
-                : "We will contact you soon."}
-            </span>
-          </div>
-          <div className="input_list">
-            <ul>
-              <li>
-                <input
-                  id="name"
-                  type="text"
-                  name="name"
-                  onChange={(e) => onChange(e)}
-                  value={name}
-                  placeholder="Your Name"
-                />
-              </li>
-              <li>
-                <input
-                  id="email"
-                  type="text"
-                  placeholder="Your Email"
-                  name="email"
-                  onChange={(e) => onChange(e)}
-                  value={email}
-                />
-              </li>
-              <li>
-                <input
-                  id="topic"
-                  type="text"
-                  placeholder="What Are You Looking For"
-                  name="topic"
-                  onChange={(e) => onChange(e)}
-                  value={topic}
-                />
-              </li>
-            </ul>
-          </div>
-          <div className="aali_tm_buttonzzz">
-            <a id="send_message" href="#" onClick={(e) => onSubmit(e)}>
-              <span>Book now </span>
-            </a>
-          </div>
-        </form>
-      </div>
-    </>
+    <Fragment>
+      <h1>For user </h1>
+      <form className="contact-form" onSubmit={sendEmail}>
+        <input type="hidden" name="contact_number" />
+        <label>Name</label>
+        <input type="text" name="to_name" />
+        <label>Email</label>
+        <input type="email" name="from_email" />
+        <label>Message</label>
+        <textarea name="message" />
+        <input type="submit" value="Send" />
+      </form>
+    </Fragment>
   );
 };
 
-export default Contact;
+export default ContactUs;
