@@ -1,15 +1,17 @@
-import React, { Fragment } from "react";
-import emailjs from "emailjs-com";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
-const ContactUs = () => {
-  function sendEmail(e) {
+export const ContactUs = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
         "service_fdpjl7j",
         "template_qwpl58r",
-        e.target,
+        form.current,
         "KOS94cM91AU01eTnJ"
       )
       .then(
@@ -20,22 +22,19 @@ const ContactUs = () => {
           console.log(error.text);
         }
       );
-  }
+  };
 
   return (
-    <Fragment>
-      <h1>For user </h1>
-      <form className="contact-form" onSubmit={sendEmail}>
-        <input type="hidden" name="contact_number" />
-        <label>Name</label>
-        <input type="text" name="to_name" />
-        <label>Email</label>
-        <input type="email" name="from_email" />
-        <label>Message</label>
-        <textarea name="message" />
+    <form ref={form} onSubmit={sendEmail}>
+      <input placeholder="First Name" type="text" name="first_name" />
+      <input placeholder="Last Name" type="text" name="last_name" />
+      <input placeholder="Phone Number" type="number" name="number" />
+      <input placeholder="Email" type="email" name="user_email" />
+      <textarea placeholder="Message" name="message" />
+      <a href="#">
         <input type="submit" value="Send" />
-      </form>
-    </Fragment>
+      </a>
+    </form>
   );
 };
 
