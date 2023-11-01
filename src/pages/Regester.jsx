@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../components/global/Layout";
+import Form from "../components/form";
 import PageHeader from "../components/global/PageHeader";
 import DynamicSeo from "../components/global/DynamicSeo";
 
@@ -7,7 +8,7 @@ const AboutPage = () => {
   return (
     <Layout>
       <PageHeader pageTitle="NHS Dental Practice Online Registration Form for Under-18 Patients" />
-  
+      <Form />
     </Layout>
   );
 };
