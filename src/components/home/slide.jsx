@@ -36,6 +36,40 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide>
+          {" "}
+          <div className="hero-slide1">
+            <div className="content">
+              <div className="right">
+                <h3 className="tracking-[0.2em] uppercase bg-secondary text-white text-xs lg:text-sm px-3 py-2 inline-block rounded">
+                  ACCESSIBLE SMILES
+                </h3>
+                <h2 className="text-3xl sm:text-4xl md:text-6xl text-primary font-semibold capitalize my-2">
+                  <span className="inline-block bg-white my-1 px-3 py-2 rounded">
+                    Making Private Dentistry
+                  </span>
+                  <br />
+                  <span className="inline-block bg-white my-1 px-3 py-2 rounded">
+                    More Affordable
+                  </span>
+                </h2>
+                <a
+                  href="https://uk.dentalhub.online/soe/new/Parish%20Dental?pid=UKDRP02"
+                  target="_blank"
+                >
+                  <Button
+                    className="tracking-[0.2em] uppercase font-normal bg-primary mt-2 flex items-center text-xs"
+                    variant="filled"
+                    size="lg"
+                  >
+                    <BsFillCalendar2CheckFill className="mr-3 text-lg" />
+                    Book - £35
+                  </Button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
           <div className="hero-slide77">
             <div className="content">
               <div className="right">
@@ -65,40 +99,6 @@ export default function App() {
                       Register now
                     </Button>
                   </a>
-                </a>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          {" "}
-          <div className="hero-slide1">
-            <div className="content">
-              <div className="right">
-                <h3 className="tracking-[0.2em] uppercase bg-secondary text-white text-xs lg:text-sm px-3 py-2 inline-block rounded">
-                  ACCESSIBLE SMILES
-                </h3>
-                <h2 className="text-3xl sm:text-4xl md:text-6xl text-primary font-semibold capitalize my-2">
-                  <span className="inline-block bg-white my-1 px-3 py-2 rounded">
-                    Making Private Dentistry
-                  </span>
-                  <br />
-                  <span className="inline-block bg-white my-1 px-3 py-2 rounded">
-                    More Affordable
-                  </span>
-                </h2>
-                <a
-                  href="https://uk.dentalhub.online/soe/new/Parish%20Dental?pid=UKDRP02"
-                  target="_blank"
-                >
-                  <Button
-                    className="tracking-[0.2em] uppercase font-normal bg-primary mt-2 flex items-center text-xs"
-                    variant="filled"
-                    size="lg"
-                  >
-                    <BsFillCalendar2CheckFill className="mr-3 text-lg" />
-                    Book - £35
-                  </Button>
                 </a>
               </div>
             </div>
