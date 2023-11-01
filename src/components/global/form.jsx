@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { NormalButton } from "../components/global/Button";
+import { NormalButton } from "./Button";
 
 export const ContactUs = () => {
   const form = useRef();

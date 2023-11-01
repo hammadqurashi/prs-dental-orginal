@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/global/Layout";
-import Form from "../components/form";
+import Form from "../components/global/form";
 import PageHeader from "../components/global/PageHeader";
 import DynamicSeo from "../components/global/DynamicSeo";
 
