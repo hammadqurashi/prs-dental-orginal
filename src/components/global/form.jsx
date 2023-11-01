@@ -119,13 +119,15 @@ export const ContactUs = () => {
           />
         </div>
         <div className="gurd">
-          <h2 className="gh2">Parent/Guardian Details (if patient is under 18):</h2>
+          <h2 className="gh2">
+            Parent/Guardian Details (if patient is under 18):
+          </h2>
           <h1 className="gh1">Full Name:</h1>
           <input
             className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
             placeholder="First Name"
             type="text"
-            required
+            
             name="g_first_name"
           />
           <input
@@ -139,7 +141,7 @@ export const ContactUs = () => {
             className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
             placeholder="Last Name"
             type="text"
-            required
+            
             name="g_last_name"
           />
           <h1 className="gh1">Relationship to Patient :</h1>
@@ -147,7 +149,7 @@ export const ContactUs = () => {
             className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
             placeholder="Relationship to Patient"
             type="text"
-            required
+            
             name="*relationship_to_patient"
           />
           <h1 className="gh1">Contact Information: </h1>
@@ -155,20 +157,21 @@ export const ContactUs = () => {
             className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
             placeholder="Phone Number"
             type="g_number"
-            required
+            
             name="number"
           />
           <input
             className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
             placeholder="Email"
             type="email"
-            required
+            
             name="g_email"
           />
           <h2 className="gh2">Medical History:</h2>
 
           <h1 className="gh1">Does the patient have any known allergies?</h1>
           <select
+            required
             className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
             name="allergies"
           >
@@ -179,6 +182,7 @@ export const ContactUs = () => {
 
           <h1 className="gh1">Is the patient currently on any medication?</h1>
           <select
+            required
             className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
             name="medication"
           >
@@ -191,6 +195,7 @@ export const ContactUs = () => {
             Has the patient had any previous dental surgeries or treatments?
           </h1>
           <select
+            required
             className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
             name="previous_treatments"
           >
