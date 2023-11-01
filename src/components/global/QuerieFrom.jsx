@@ -64,7 +64,7 @@ export const ContactUs = () => {
         rows={5}
       />
       <a href="#">
-        <NormalButton onClick={navigate("/")}
+        <NormalButton
           variant={"blue"}
           className="px-3  w-full py-3 flex justify-center items-center"
           type="submit"
