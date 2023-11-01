@@ -91,7 +91,7 @@ export default function App() {
                     Only £9.20 Above NHS Pricing.
                   </span>
                 </h2>
-                <div onClick={() => setIsOpen(!isOpen)}>
+                <a href="/Regester">
                   <Button
                     className="tracking-[0.2em] uppercase font-normal bg-primary mt-2 flex items-center text-xs"
                     variant="filled"
@@ -100,7 +100,7 @@ export default function App() {
                     <BsFillCalendarDateFill className="mr-3 text-lg" />
                     Register now
                   </Button>
-                </div>
+                </a>
               </div>
             </div>
           </div>
