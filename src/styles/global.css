@@ -199,6 +199,9 @@ input[type="number"] {
   flex-direction: column;
   justify-content: center;
 }
+.hero-slide77 .content {
+  padding: 0 15%;
+}
 .hero-slide .content {
   padding: 0 15%;
 }
