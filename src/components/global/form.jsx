@@ -11,7 +11,7 @@ export const ContactUs = () => {
     emailjs
       .sendForm(
         "service_fdpjl7j",
-        "template_qwpl58r",
+        "template_uekgu45",
         form.current,
         "KOS94cM91AU01eTnJ"
       )
@@ -150,7 +150,7 @@ export const ContactUs = () => {
             placeholder="Relationship to Patient"
             type="text"
             
-            name="*relationship_to_patient"
+            name="relationship_to_patient"
           />
           <h1 className="gh1">Contact Information: </h1>
           <input
