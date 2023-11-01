@@ -189,6 +189,16 @@ input[type="number"] {
   flex-direction: column;
   justify-content: center;
 }
+.hero-slide77 {
+  height: 80vh;
+  background-image: url(https://res.cloudinary.com/db1i46uiv/image/upload/v1698829523/843B0001_o87b0y.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .hero-slide .content {
   padding: 0 15%;
 }
