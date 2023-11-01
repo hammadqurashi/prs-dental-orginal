@@ -11,6 +11,7 @@ import { Autoplay, Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 import { Button } from "@material-tailwind/react";
 import { Link } from "gatsby";
 import Energency from "./EmergencyHomeBanner";
+import Teethforpal from "./Teethforpal"
 import {
   BsFillCalendar2CheckFill,
   BsFillCalendarDateFill,
@@ -34,6 +35,9 @@ export default function App() {
         modules={[Autoplay, Navigation, Pagination, Mousewheel, Keyboard]}
         className="mySwiper"
       >
+        <SwiperSlide>
+          <Teethforpal/>
+        </SwiperSlide>
         <SwiperSlide>
           {" "}
           <div className="hero-slide1">
