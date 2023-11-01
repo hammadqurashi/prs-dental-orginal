@@ -702,3 +702,10 @@ details > summary::-webkit-details-marker {
   border-radius: 4px;
   cursor: pointer;
 }
+.g{
+  max-width: 1280px;
+  margin: auto;
+  padding: 100px 0;
+  display: flex;
+  gap: 80px;
+}

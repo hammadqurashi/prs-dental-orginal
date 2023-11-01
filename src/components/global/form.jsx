@@ -185,18 +185,17 @@ export const ContactUs = () => {
             <option value="yes">Yes</option>
             <option value="no">No</option>
           </select>
+          <a href="#">
+            <NormalButton
+              variant={"blue"}
+              className="px-3  w-full py-3 flex justify-center items-center"
+              type="submit"
+            >
+              Submit
+            </NormalButton>
+          </a>
         </div>
       </div>
-
-      <a href="#">
-        <NormalButton
-          variant={"blue"}
-          className="px-3  w-full py-3 flex justify-center items-center"
-          type="submit"
-        >
-          Submit
-        </NormalButton>
-      </a>
     </form>
   );
 };
