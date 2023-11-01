@@ -29,6 +29,7 @@ export const ContactUs = () => {
     <form ref={form} onSubmit={sendEmail}>
       <div className="g">
         <div className="pasent">
+          <h2>Patient Details:</h2>
           <h1>Full Name:</h1>
           <input
             className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
@@ -68,7 +69,7 @@ export const ContactUs = () => {
           />
 
           <h1>Gender:</h1>
-          <select name="Gender">
+          <select className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4" name="Gender">
             <option value="">--Please choose an option--</option>
             <option value="Male">Male</option>
             <option value="Female">Female</option>
