@@ -69,7 +69,10 @@ export const ContactUs = () => {
           />
 
           <h1>Gender:</h1>
-          <select className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4" name="Gender">
+          <select
+            className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
+            name="Gender"
+          >
             <option value="">--Please choose an option--</option>
             <option value="Male">Male</option>
             <option value="Female">Female</option>
@@ -165,14 +168,20 @@ export const ContactUs = () => {
           <h2>Medical History:</h2>
 
           <h1>Does the patient have any known allergies?</h1>
-          <select name="allergies">
+          <select
+            className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
+            name="allergies"
+          >
             <option value="">--Please choose an option--</option>
             <option value="yes">Yes</option>
             <option value="no">No</option>
           </select>
 
           <h1>Is the patient currently on any medication?</h1>
-          <select name="medication">
+          <select
+            className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
+            name="medication"
+          >
             <option value="">--Please choose an option--</option>
             <option value="yes">Yes</option>
             <option value="no">No</option>
@@ -181,7 +190,10 @@ export const ContactUs = () => {
           <h1>
             Has the patient had any previous dental surgeries or treatments?
           </h1>
-          <select name="previous_treatments">
+          <select
+            className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
+            name="previous_treatments"
+          >
             <option value="">--Please choose an option--</option>
             <option value="yes">Yes</option>
             <option value="no">No</option>
