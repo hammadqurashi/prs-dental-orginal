@@ -612,7 +612,11 @@ details > summary::-webkit-details-marker {
     display: flex;
   }
   .container-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
+  }
+  .image{
+    display: grid ;
+    justify-content: center;
   }
 }
 .container-grid {
@@ -734,21 +738,3 @@ details > summary::-webkit-details-marker {
   color: #0000008c;
 }
 
-@media (max-width: 600px) {
-  .container-grid{
-    grid-template-columns: 1fr;
-  }
-  .image{
-    display: grid;
-    justify-content: center;
-  }
-}
-@media only screen and (min-width: 640px) {
-  .container-grid{
-    grid-template-columns: 1fr;
-  }
-  .image{
-    display: grid;
-    justify-content: center;
-  }
-}
