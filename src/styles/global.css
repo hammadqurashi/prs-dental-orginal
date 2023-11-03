@@ -733,3 +733,13 @@ details > summary::-webkit-details-marker {
   line-height: 35px;
   color: #0000008c;
 }
+
+@media (max-width: 600px) {
+  .container-grid{
+    grid-template-columns: 1fr;
+  }
+  .image{
+    display: grid;
+    justify-content: center;
+  }
+}
