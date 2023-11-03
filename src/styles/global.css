@@ -611,12 +611,14 @@ details > summary::-webkit-details-marker {
   .card-v {
     display: flex;
   }
+
   .container-grid {
     grid-template-columns: 1fr !important;
   }
+  
   .image{
-    display: grid ;
-    justify-content: center;
+    display: grid !important;;
+    justify-content: center !important;;
   }
 }
 .container-grid {
