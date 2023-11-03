@@ -743,3 +743,12 @@ details > summary::-webkit-details-marker {
     justify-content: center;
   }
 }
+@media only screen and (min-width: 640px) {
+  .container-grid{
+    grid-template-columns: 1fr;
+  }
+  .image{
+    display: grid;
+    justify-content: center;
+  }
+}
