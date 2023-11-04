@@ -715,3 +715,13 @@ details > summary::-webkit-details-marker {
     padding: 10px 0;
   }
 }
+.brrd{
+  border: 1.5px solid red;
+  padding: 3px 10px;
+  border-radius: 8px;
+}
+.bbrd{
+  border: 1.5px solid blue;
+  padding: 3px 10px;
+  border-radius: 8px;
+}
