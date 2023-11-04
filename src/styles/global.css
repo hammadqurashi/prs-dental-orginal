@@ -648,15 +648,7 @@ details > summary::-webkit-details-marker {
   font-weight: 700;
   color: rgb(21 127 180);
 }
-.right .intro .introduction p {
-  font-size: 18px;
-  color: #000000b3;
-  padding: 10px 0;
-  line-height: 32px;
-  text-align: justify;
-  padding-right: 100px;
-  padding-bottom: 65px;
-}
+
 .dilog {
   display: grid;
   grid-template-columns: 1fr 1fr;

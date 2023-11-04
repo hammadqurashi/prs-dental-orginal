@@ -45,7 +45,7 @@ const WhyChooseUs = () => {
           <div class="intro">
             <div className="introduction">
               <h4>Introduction</h4>
-              <p>
+              <p className="text-lg py-2.5 text-justify lg:pr-24 pr-0 pb-16">
                 In memory of the late Pavan Bhogal, a visionary entrepreneur
                 whose life was tragically cut short, we present a remarkable
                 opportunity to invest in a project that not only fulfills his
