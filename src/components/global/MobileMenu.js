@@ -72,6 +72,7 @@ const MobileMenu = ({ open, setOpen }) => {
 
       <div className="mb-6 flex justify-center items-center ">
         <BookingButton />
+        <h1>9999</h1>
       </div>
 
       <List
@@ -146,7 +147,7 @@ const MobileMenu = ({ open, setOpen }) => {
           );
         })}
       </List>
-      9999
+      
       
       
     </Drawer>
