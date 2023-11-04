@@ -54,7 +54,7 @@ const WhyChooseUs = () => {
                 largest and most innovative dental healthcare
               </p>
             </div>
-            <div className="dilog">
+            <div className="dilog lg:grid-cols-[50%_50%] grid-cols-[100%] contaier-grid gap-11 grid py-2.5">
               <div className="dilog-1">
                 <h4>Pavan Bhogal: A Visionary Healer</h4>
                 <p>
