@@ -2,7 +2,7 @@ import React from "react";
 const WhyChooseUs = () => {
   return (
     <section className=" container mx-auto px-10 my-40">
-      <div class="container-grid">
+      <div class="contaier-grid">
         <div className="left">
           <div class="image">
             <img
