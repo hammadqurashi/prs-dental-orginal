@@ -70,7 +70,7 @@ const MobileMenu = ({ open, setOpen }) => {
         </IconButton>
       </div>
 
-      <div className="mb-6 grid justify-center items-center ">
+      <div className="mb-6  text-center">
         <a className="text-secondary rd brrd my-2" href="tel:01133228354">
           0113 322 8354 - PRT.
         </a>
@@ -134,21 +134,7 @@ const MobileMenu = ({ open, setOpen }) => {
                       </Link>
                     ))}
                   </List>
-                  <div className="mb-6 grid justify-center items-center ">
-                    <a
-                      className="text-secondary rd brrd my-2"
-                      href="tel:01133228354"
-                    >
-                      0113 322 8354 - PRT.
-                    </a>
-                    <hr className="mb-3" />
-                    <a
-                      className="text-secondary bl bbrd my-2"
-                      href="tel:01132638509"
-                    >
-                      0113 263 8509 - NHS
-                    </a>
-                  </div>
+                  
                 </AccordionBody>
               </Accordion>
             );
