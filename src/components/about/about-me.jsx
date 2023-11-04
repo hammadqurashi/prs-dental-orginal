@@ -2,7 +2,7 @@ import React from "react";
 const WhyChooseUs = () => {
   return (
     <section className=" container mx-auto px-10 my-40">
-      <div class="lg:grid-cols-[100%] contaier-grid gap-11 grid grid-cols-[35%_65%]">
+      <div class="lg:grid-cols-[35%_65%] grid-cols-[100%] contaier-grid gap-11 grid ">
         <div className="left">
           <div class="image">
             <img
