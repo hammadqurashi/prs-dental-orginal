@@ -612,7 +612,7 @@ details > summary::-webkit-details-marker {
     display: flex;
   }
 
-  .container-grid {
+  .contaier-grid {
     display: flex;
     flex-direction: row;
     }
@@ -622,20 +622,20 @@ details > summary::-webkit-details-marker {
     justify-content: center !important;;
   }
 }
-.container-grid {
+.contaier-grid {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 45px;
 }
-.container-grid .left .image img {
+.contaier-grid .left .image img {
   width: 325px;
 }
-.container-grid .left .image hr {
+.contaier-grid .left .image hr {
   height: 40px;
   border-bottom: 40px solid #ff48a469;
   padding-top: 50px;
 }
-.container-grid .left .image p {
+.contaier-grid .left .image p {
   text-align: center;
   padding-top: 40px;
   font-size: 18px;
