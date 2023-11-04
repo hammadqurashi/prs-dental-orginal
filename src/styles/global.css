@@ -709,7 +709,7 @@ details > summary::-webkit-details-marker {
   color: #0000008c;
 }
 
-@media (max-width: 640px) {
+/* @media (max-width: 640px) {
   .card-v {
     display: flex;
   }
@@ -741,4 +741,4 @@ details > summary::-webkit-details-marker {
   text-align: center;
   padding-top: 40px;
   font-size: 18px;
-}
+} */
