@@ -709,7 +709,26 @@ details > summary::-webkit-details-marker {
   color: #0000008c;
 }
 
+@media (max-width: 640px) {
+  .card-v {
+    display: flex;
+  }
 
+  .contaier-grid {
+    display: flex;
+    flex-direction: row;
+    }
+
+  .image{
+    display: grid !important;;
+    justify-content: center !important;;
+  }
+}
+.contaier-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 45px;
+}
 .contaier-grid .left .image img {
   width: 325px;
 }
@@ -722,4 +741,4 @@ details > summary::-webkit-details-marker {
   text-align: center;
   padding-top: 40px;
   font-size: 18px;
-} */
+}

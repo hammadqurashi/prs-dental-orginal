@@ -2,15 +2,15 @@ import React from "react";
 const WhyChooseUs = () => {
   return (
     <section className=" container mx-auto px-10 my-40">
-      <div class="lg:grid-cols-[35%_65%] grid-cols-[100%] contaier-grid gap-11 grid ">
+      <div className="lg:grid-cols-[35%_65%] grid-cols-[100%] contaier-grid gap-11 grid ">
         <div className="left">
-          <div class="">
-            <img
+          <div >
+            <img className="image lg:w-80 w-full"
               src="https://res.cloudinary.com/db1i46uiv/image/upload/v1697918420/WhatsApp_Image_2023-10-22_at_01.49.06_80aa571f_oaukua.jpg"
               alt=""
             />
-            <hr className=""/>
-            <p className="">
+            <hr className="border-solid border-bridge border-b-10 h-10 pt-12"/>
+            <p className="text-center	pt-10 text-lg">
               The Late Dr Pav Bhogal
               <br /> 03/07/1992 to 16/08/2023 <br />
               <b>Age 31</b>
