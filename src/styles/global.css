@@ -607,7 +607,6 @@ details > summary::-webkit-details-marker {
   color: #795cfb !important;
 }
 
-
 .cardlist {
   background-color: #f5f5dc75;
   padding: 25px;
@@ -677,20 +676,19 @@ details > summary::-webkit-details-marker {
   line-height: 32px;
 }
 
-.f-top{
+.f-top {
   text-align: center;
   font-size: 45px;
   font-weight: 600;
   color: rgb(21 127 180);
-
 }
-.blc{
-  background-color:  rgb(21 127 180);
+.blc {
+  background-color: rgb(21 127 180);
   color: white !important;
   border-radius: 4px;
   cursor: pointer;
 }
-.g{
+.g {
   max-width: 1280px;
   margin: auto;
   padding: 100px 0;
@@ -698,20 +696,30 @@ details > summary::-webkit-details-marker {
   gap: 80px;
 }
 
-.gh2{
+.gh2 {
   font-size: 24px;
   line-height: 70px;
   color: rgb(21 127 180);
 }
-.gh1{
+.gh1 {
   font-size: 20px;
   line-height: 35px;
   color: #0000008c;
 }
 
-
 .contaier-grid .left .image hr {
   height: 40px;
   border-bottom: 40px solid #ff48a469;
   padding-top: 50px;
+}
+@media screen and (max-width: 640px) {
+  .card-v {
+    grid-template-columns: 1fr;
+  }
+  .dilog {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 45px;
+    padding: 10px 0;
+  }
 }
