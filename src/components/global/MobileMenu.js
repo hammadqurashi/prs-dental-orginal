@@ -127,6 +127,7 @@ const MobileMenu = ({ open, setOpen }) => {
                   </List>
                 </AccordionBody>
               </Accordion>
+              
             );
           }
 
@@ -145,6 +146,27 @@ const MobileMenu = ({ open, setOpen }) => {
           );
         })}
       </List>
+      
+      <h2 className="text-center text-3xl my-2 capitalize font-semibold text-primary">
+        Address
+      </h2>
+      <p className="text-secondary my-2">7-9 Branch Rd, Armley, Leeds LS12 3AQ, UK</p>
+      <a
+        className="text-secondary my-2 block"
+        href={"mailto:hello@parishdental.co.uk"}
+      >
+        hello@parishdental.co.uk{" "}
+      </a>
+     
+      
+      <a className="text-secondary rd brrd my-2" href="tel:01133228354">
+      0113 322 8354 - PRT.
+      </a>
+      <hr className="mb-3" />
+      <a className="text-secondary bl bbrd my-2" href="tel:01132638509">
+      0113 263 8509 - NHS
+      </a>
+      
     </Drawer>
   );
 };
