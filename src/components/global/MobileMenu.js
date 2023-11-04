@@ -72,7 +72,15 @@ const MobileMenu = ({ open, setOpen }) => {
 
       <div className="mb-6 flex justify-center items-center ">
         <BookingButton />
-        <h1>9999</h1>
+        <div>
+          <a className="text-secondary rd brrd my-2" href="tel:01133228354">
+            0113 322 8354 - PRT.
+          </a>
+          <hr className="mb-3" />
+          <a className="text-secondary bl bbrd my-2" href="tel:01132638509">
+            0113 263 8509 - NHS
+          </a>
+        </div>
       </div>
 
       <List
@@ -128,7 +136,6 @@ const MobileMenu = ({ open, setOpen }) => {
                   </List>
                 </AccordionBody>
               </Accordion>
-              
             );
           }
 
@@ -147,9 +154,15 @@ const MobileMenu = ({ open, setOpen }) => {
           );
         })}
       </List>
-      
-      
-      
+      <div>
+        <a className="text-secondary rd brrd my-2" href="tel:01133228354">
+          0113 322 8354 - PRT.
+        </a>
+        <hr className="mb-3" />
+        <a className="text-secondary bl bbrd my-2" href="tel:01132638509">
+          0113 263 8509 - NHS
+        </a>
+      </div>
     </Drawer>
   );
 };
