@@ -35,7 +35,7 @@ const Topbar = () => {
             className="px-4 redoutline flex items-center"
           >
             <FiPhone className="mr-2 " />
-            0113 322 8354 - PRIVATE 24/7
+            0113 322 8354 - PRT.
           </a>
           <a
             href="tel:01132638509"
