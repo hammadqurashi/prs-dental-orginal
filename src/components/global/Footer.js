@@ -132,7 +132,7 @@ const Footer = () => {
 {/* ss */}
           <a
             href={`tel:${footerData?.phone}`}
-            className="flex items-center  mb-7"
+            className="flex items-center footer-back-blue mb-7"
           >
             <FiPhone className="mr-2 w-1/12 text-xl" />{" "}
             <span className="font-light">0113 263 8509 - NHS</span>

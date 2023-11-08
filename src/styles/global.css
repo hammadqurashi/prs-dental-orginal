@@ -455,11 +455,26 @@ details > summary::-webkit-details-marker {
   margin: 0.7rem;
   border-radius: 8px;
 }
+.redoutline{
+  border: 2px solid blue;
+  padding: 0.15rem 0rem;
+  background: blue;
+  margin: 0.7rem;
+  border-radius: 8px;
+}
 .footer-back{
   background-color: red;
-  padding: 2.5px 0;
-  color: white;
-  border-radius: 8px;
+  border-radius: 10px;
+  color: #fff;
+  justify-content: center;
+  padding: 3px 24px;
+}
+.footer-back-blue{
+  background-color: blue;
+  border-radius: 10px;
+  color: #fff;
+  justify-content: center;
+  padding: 3px 24px;
 }
 .outlines {
   border: 6px solid red;

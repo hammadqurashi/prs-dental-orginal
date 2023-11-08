@@ -38,10 +38,10 @@ const Topbar = () => {
             0113 322 8354 - PRT.
           </a>
           <a
-            href="tel:01132638509"
-            className="px-4 flex items-center"
+            href="tel:001132638509"
+            className="px-4 blueoutline flex items-center"
           >
-            <FiPhone className="mr-2" />
+            <FiPhone className="mr-2 " />
             0113 263 8509 - NHS
           </a>
           <a
