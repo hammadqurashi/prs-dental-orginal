@@ -55,12 +55,17 @@ const Footer = () => {
           <Logo isFooter />
           <p className="my-10 font-light">{footerData?.footerDescription}</p>
           <div className="flex items-center my-5 gap-2.5	">
-      
-            <a href="https://instagram.com/parish.dental?igshid=MzRlODBiNWFlZA==" className="icon">
-              <BsFacebook/>
+            <a
+              href="https://instagram.com/parish.dental?igshid=MzRlODBiNWFlZA=="
+              className="icon"
+            >
+              <BsFacebook />
             </a>
-            <a href="https://www.facebook.com/profile.php?id=100094065880755&mibextid=V3Yony" className="icon">
-              <BsInstagram/>
+            <a
+              href="https://www.facebook.com/profile.php?id=100094065880755&mibextid=V3Yony"
+              className="icon"
+            >
+              <BsInstagram />
             </a>
           </div>
 
@@ -129,20 +134,20 @@ const Footer = () => {
             <FiMail className="mr-2 w-1/12 text-xl" />{" "}
             <span className="font-light">hello@parishdental.co.uk</span>
           </a>
-{/* ss */}
-          <a
-            href={`tel:${footerData?.phone}`}
-            className="flex items-center footer-back-blue mb-7"
-          >
-            <FiPhone className="mr-2 w-1/12 text-xl" />{" "}
-            <span className="font-light">0113 263 8509 - NHS</span>
-          </a>
+
           <a
             href="tel:01133228354"
-            className="flex items-center footer-back mb-7"
+            className="flex items-center footer-back mb-4 mr-8"
           >
             <FiPhone className="mr-2 w-1/12 text-xl" />{" "}
             <span className="font-light">0113 322 8354 - PRT.</span>
+          </a>
+          <a
+            href={`tel:${footerData?.phone}`}
+            className="flex items-center footer-back-blue mb-7 mr-8"
+          >
+            <FiPhone className="mr-2 w-1/12 text-xl" />{" "}
+            <span className="font-light">0113 263 8509 - NHS</span>
           </a>
         </div>
         <div>
