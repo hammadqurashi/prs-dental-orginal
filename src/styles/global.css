@@ -455,7 +455,7 @@ details > summary::-webkit-details-marker {
   margin: 0.7rem;
   border-radius: 8px;
 }
-.redoutline{
+.blueoutline{
   border: 2px solid blue;
   padding: 0.15rem 0rem;
   background: blue;
