@@ -139,10 +139,10 @@ const Footer = () => {
           </a>
           <a
             href="tel:01133228354"
-            className="flex items-center  mb-7"
+            className="flex items-center footer-back mb-7"
           >
-            <FiPhone className=" rd mr-2 w-1/12 text-xl" />{" "}
-            <span className=" rd font-light">0113 322 8354 - PRIVATE 24/7</span>
+            <FiPhone className="mr-2 w-1/12 text-xl" />{" "}
+            <span className="font-light">0113 322 8354 - PRT.</span>
           </a>
         </div>
         <div>
