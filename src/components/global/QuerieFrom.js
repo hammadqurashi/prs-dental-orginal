@@ -14,8 +14,11 @@ export const ContactUs = () => {
     setLoading(true);
     setTimeout(() => {
       fname.current.value = "";
+    }, 1000);
+    setTimeout(() => {
       setLoading(false);
     }, 1000);
+
 
     emailjs
       .sendForm(
