@@ -40,7 +40,6 @@ const AboutPage = () => {
           id="message"
           name="message"
           type="text"
-          onChange={handleChange}
           value={message}
         />
 
