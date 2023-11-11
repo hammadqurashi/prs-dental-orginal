@@ -4,6 +4,7 @@ import { NormalButton } from "./Button";
 
 export const ContactUs = () => {
   const form = useRef();
+  const fname = useRef("");
 
   const sendEmail = (e) => {
     e.preventDefault();
