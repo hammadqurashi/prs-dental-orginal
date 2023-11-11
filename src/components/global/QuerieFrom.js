@@ -2,12 +2,12 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { NormalButton } from "./Button";
 
-
 export const ContactUs = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
+    fname.current.value = "";
 
     emailjs
       .sendForm(
@@ -29,6 +29,7 @@ export const ContactUs = () => {
   return (
     <form ref={form} onSubmit={sendEmail}>
       <input
+        ref={fname}
         className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
         placeholder="First Name"
         type="text"
