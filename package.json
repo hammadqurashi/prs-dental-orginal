@@ -38,6 +38,7 @@
     "@tiptap/extension-link": "^2.1.12",
     "@tiptap/react": "^2.1.12",
     "@tiptap/starter-kit": "^2.1.12",
+    "antd": "^5.11.1",
     "axios": "^1.4.0",
     "dayjs": "^1.11.10",
     "emailjs": "^4.0.3",
