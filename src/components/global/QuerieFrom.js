@@ -7,7 +7,18 @@ export const ContactUs = () => {
   const [Loading, setLoading] = useState(false);
   const form = useRef();
   const fname = useRef("");
-  const [firstName, setfirstName] = useState("");
+  const [
+    firstName,
+    setfirstName,
+    lastName,
+    setlastName,
+    Number,
+    setNumber,
+    Email,
+    setEmail,
+    Message,
+    setMessage,
+  ] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -18,7 +29,6 @@ export const ContactUs = () => {
     setTimeout(() => {
       setLoading(false);
     }, 1000);
-
 
     emailjs
       .sendForm(
@@ -41,12 +51,12 @@ export const ContactUs = () => {
     <Spin spinning={Loading}>
       <form ref={form} onSubmit={sendEmail}>
         <input
-          ref={fname}
           className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
           placeholder="First Name"
           type="text"
           required
           name="first_name"
+          ref={fname}
           value={firstName}
           onChange={(e) => setfirstName(e.target.value)}
         />
@@ -56,6 +66,9 @@ export const ContactUs = () => {
           type="text"
           required
           name="last_name"
+          ref={fname}
+          value={lastName}
+          onChange={(e) => setlastName(e.target.value)}
         />
         <input
           className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
@@ -63,6 +76,9 @@ export const ContactUs = () => {
           type="number"
           required
           name="number"
+          ref={fname}
+          value={Number}
+          onChange={(e) => setNumber(e.target.value)}
         />
         <input
           className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
@@ -70,6 +86,9 @@ export const ContactUs = () => {
           type="email"
           required
           name="user_email"
+          ref={fname}
+          value={Email}
+          onChange={(e) => setEmail(e.target.value)}
         />
         <textarea
           className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
@@ -77,6 +96,9 @@ export const ContactUs = () => {
           name="message"
           required
           rows={5}
+          ref={fname}
+          value={Message}
+          onChange={(e) => setMessage(e.target.value)}
         />
         <a href="#">
           <NormalButton
