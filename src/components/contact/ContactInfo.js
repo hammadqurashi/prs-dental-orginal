@@ -35,7 +35,7 @@ const ContactInfo = () => {
       <a className="text-secondary rd brrd my-2" href="tel:01133228354">
       0113 322 8354 - PRT.
       </a>
-      <hr className="mb-3" />
+      
       <a className="text-secondary bl bbrd my-2" href={`tel:${contactData?.phone}`}>
       0113 263 8509 - NHS
       </a>
