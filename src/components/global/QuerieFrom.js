@@ -1,10 +1,11 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { NormalButton } from "./Button";
 
 export const ContactUs = () => {
   const form = useRef();
   const fname = useRef("");
+  const [ firstName, setfirstName ] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -36,6 +37,8 @@ export const ContactUs = () => {
         type="text"
         required
         name="first_name"
+        value={firstName}
+        onChange={(e) => setfirstName(e.target.value)}
       />
       <input
         className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
