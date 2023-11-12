@@ -4,7 +4,7 @@ import { NormalButton } from "./Button";
 import { Spin } from "antd";
 
 export const ContactUs = () => {
-  const [ success, setsuccess ] = useState(false);
+  const [success, setsuccess] = useState(false);
   const [Loading, setLoading] = useState(false);
   const form = useRef();
   const fname = useRef("");
@@ -31,7 +31,6 @@ export const ContactUs = () => {
     setTimeout(() => {
       setLoading(false);
     }, 1000);
-    
 
     emailjs
       .sendForm(
@@ -54,7 +53,7 @@ export const ContactUs = () => {
     <Spin spinning={Loading}>
       <form ref={form} onSubmit={sendEmail}>
         <input
-          className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
+          className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
           placeholder="First Name"
           type="text"
           required
@@ -64,7 +63,7 @@ export const ContactUs = () => {
           onChange={(e) => setfirstName(e.target.value)}
         />
         <input
-          className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
+          className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
           placeholder="Last Name"
           type="text"
           required
@@ -74,7 +73,9 @@ export const ContactUs = () => {
           onChange={(e) => setlastName(e.target.value)}
         />
         <input
-          className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
+          minLength={10}
+          maxLength={11}
+          className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
           placeholder="Phone Number"
           type="number"
           required
@@ -84,7 +85,7 @@ export const ContactUs = () => {
           onChange={(e) => setNumber(e.target.value)}
         />
         <input
-          className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
+          className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
           placeholder="Email"
           type="email"
           required
@@ -94,7 +95,8 @@ export const ContactUs = () => {
           onChange={(e) => setEmail(e.target.value)}
         />
         <textarea
-          className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-2 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
+          minLength={200}
+          className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
           placeholder="Message"
           name="message"
           required
@@ -106,13 +108,17 @@ export const ContactUs = () => {
         <a href="#">
           <NormalButton
             variant={"blue"}
-            className="px-3  w-full py-3 flex justify-center items-center"
+            className="px-3  w-full py-4 flex justify-center items-center"
             type="submit"
           >
             Submit
           </NormalButton>
         </a>
-        { success && <p>your message is submited</p> }
+        {success && (
+          <p className="text-center text-lg p-4 ">
+            Thanks for contacting us. We will be in touch with you shortly.
+          </p>
+        )}
       </form>
     </Spin>
   );
