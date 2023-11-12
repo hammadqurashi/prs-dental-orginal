@@ -4,22 +4,15 @@ import { NormalButton } from "./Button";
 import { Spin } from "antd";
 
 export const ContactUs = () => {
-  const [ success, setsuccess ] = useState(false);
+  const [success, setsuccess] = useState(false);
   const [Loading, setLoading] = useState(false);
   const form = useRef();
-  const fname = useRef("");
-  const [
-    firstName,
-    setfirstName,
-    lastName,
-    setlastName,
-    Number,
-    setNumber,
-    Email,
-    setEmail,
-    Message,
-    setMessage,
-  ] = useState("");
+  const [fname, lname, pname, ename, mname] = useRef("");
+  const [firstName, setfirstName] = useState("");
+  const [lastName, setlastName] = useState("");
+  const [Number, setNumber] = useState("");
+  const [Email, setEmail] = useState("");
+  const [Message, setMessage] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -27,11 +20,14 @@ export const ContactUs = () => {
     setLoading(true);
     setTimeout(() => {
       fname.current.value = "";
+      lname.current.value = "";
+      pname.current.value = "";
+      ename.current.value = "";
+      mname.current.value = "";
     }, 1000);
     setTimeout(() => {
       setLoading(false);
     }, 1000);
-    
 
     emailjs
       .sendForm(
@@ -69,7 +65,7 @@ export const ContactUs = () => {
           type="text"
           required
           name="last_name"
-          ref={fname}
+          ref={lname}
           value={lastName}
           onChange={(e) => setlastName(e.target.value)}
         />
@@ -79,7 +75,7 @@ export const ContactUs = () => {
           type="number"
           required
           name="number"
-          ref={fname}
+          ref={pname}
           value={Number}
           onChange={(e) => setNumber(e.target.value)}
         />
@@ -89,7 +85,7 @@ export const ContactUs = () => {
           type="email"
           required
           name="user_email"
-          ref={fname}
+          ref={ename}
           value={Email}
           onChange={(e) => setEmail(e.target.value)}
         />
@@ -99,7 +95,7 @@ export const ContactUs = () => {
           name="message"
           required
           rows={5}
-          ref={fname}
+          ref={mname}
           value={Message}
           onChange={(e) => setMessage(e.target.value)}
         />
@@ -112,7 +108,7 @@ export const ContactUs = () => {
             Submit
           </NormalButton>
         </a>
-        { success && <p>your message is submited</p> }
+        {success && <p>your message is submited</p>}
       </form>
     </Spin>
   );
