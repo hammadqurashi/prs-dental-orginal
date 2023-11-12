@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { NormalButton } from "./Button";
 import { Spin } from "antd";
+import Succcess from "./success"
 
 export const ContactUs = () => {
   const [success, setsuccess] = useState(false);
@@ -108,7 +109,7 @@ export const ContactUs = () => {
             Submit
           </NormalButton>
         </a>
-        {success && <p>your message is submited</p>}
+        {success && <Succcess />}
       </form>
     </Spin>
   );
