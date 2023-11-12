@@ -3,32 +3,35 @@ import emailjs from "@emailjs/browser";
 import { NormalButton } from "./Button";
 import { Spin } from "antd";
 
-
 export const ContactUs = () => {
-  const [success, setsuccess] = useState(false);
+  const [ success, setsuccess ] = useState(false);
   const [Loading, setLoading] = useState(false);
   const form = useRef();
-  const [fname, lname, pname, ename, mname] = useRef("");
-  const [firstName, setfirstName] = useState("");
-  const [lastName, setlastName] = useState("");
-  const [Number, setNumber] = useState("");
-  const [Email, setEmail] = useState("");
-  const [Message, setMessage] = useState("");
+  const fname = useRef("");
+  const [
+    firstName,
+    setfirstName,
+    lastName,
+    setlastName,
+    Number,
+    setNumber,
+    Email,
+    setEmail,
+    Message,
+    setMessage,
+  ] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setsuccess(true);
     setLoading(true);
     setTimeout(() => {
       fname.current.value = "";
-      lname.current.value = "";
-      pname.current.value = "";
-      ename.current.value = "";
-      mname.current.value = "";
     }, 1000);
     setTimeout(() => {
       setLoading(false);
-      setsuccess(true);
     }, 1000);
+    
 
     emailjs
       .sendForm(
@@ -66,7 +69,7 @@ export const ContactUs = () => {
           type="text"
           required
           name="last_name"
-          ref={lname}
+          ref={fname}
           value={lastName}
           onChange={(e) => setlastName(e.target.value)}
         />
@@ -76,7 +79,7 @@ export const ContactUs = () => {
           type="number"
           required
           name="number"
-          ref={pname}
+          ref={fname}
           value={Number}
           onChange={(e) => setNumber(e.target.value)}
         />
@@ -86,7 +89,7 @@ export const ContactUs = () => {
           type="email"
           required
           name="user_email"
-          ref={ename}
+          ref={fname}
           value={Email}
           onChange={(e) => setEmail(e.target.value)}
         />
@@ -96,7 +99,7 @@ export const ContactUs = () => {
           name="message"
           required
           rows={5}
-          ref={mname}
+          ref={fname}
           value={Message}
           onChange={(e) => setMessage(e.target.value)}
         />
@@ -109,7 +112,7 @@ export const ContactUs = () => {
             Submit
           </NormalButton>
         </a>
-        {success && <p>thanks for submithing</p>}
+        { success && <p>your message is submited</p> }
       </form>
     </Spin>
   );
