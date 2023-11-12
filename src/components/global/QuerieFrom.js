@@ -4,6 +4,7 @@ import { NormalButton } from "./Button";
 import { Spin } from "antd";
 
 export const ContactUs = () => {
+  const [ success, setsuccess ] = useState(false);
   const [Loading, setLoading] = useState(false);
   const form = useRef();
   const fname = useRef("");
@@ -22,6 +23,7 @@ export const ContactUs = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setsuccess(true);
     setLoading(true);
     setTimeout(() => {
       fname.current.value = "";
@@ -29,6 +31,7 @@ export const ContactUs = () => {
     setTimeout(() => {
       setLoading(false);
     }, 1000);
+    
 
     emailjs
       .sendForm(
@@ -109,6 +112,7 @@ export const ContactUs = () => {
             Submit
           </NormalButton>
         </a>
+        { success && <p>your message is submited</p> }
       </form>
     </Spin>
   );
