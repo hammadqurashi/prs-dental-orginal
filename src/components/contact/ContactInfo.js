@@ -31,7 +31,7 @@ const ContactInfo = () => {
         hello@parishdental.co.uk{" "}
       </a>
 
-      <div className="flex flex-row gap-3">
+      <div className="flex flex-column align-center justify-center gap-3">
         <a className="text-secondary rd brrd my-2" href="tel:01133228354">
           0113 322 8354 - PRT.
         </a>
