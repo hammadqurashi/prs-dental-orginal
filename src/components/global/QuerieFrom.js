@@ -17,7 +17,6 @@ export const ContactUs = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    setsuccess(true);
     setLoading(true);
     setTimeout(() => {
       fname.current.value = "";
@@ -28,6 +27,7 @@ export const ContactUs = () => {
     }, 1000);
     setTimeout(() => {
       setLoading(false);
+      setsuccess(true);
     }, 1000);
 
     emailjs
