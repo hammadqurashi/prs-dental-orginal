@@ -100,11 +100,11 @@ export const ContactUs = () => {
         </div>
         <textarea
           minLength={200}
-          className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-2"
+          className="px-4 outline-none ring-2 ring-secondary/10 focus:ring-2 focus:ring-primary/40 rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-2"
           placeholder="Message"
           name="message"
           required
-          rows={5}
+          rows={4}
           ref={fname}
           value={Message}
           onChange={(e) => setMessage(e.target.value)}
