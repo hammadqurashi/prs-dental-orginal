@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import { NormalButton } from "./Button";
+import {  Button  } from "@material-tailwind/react";
 import { Spin } from "antd";
 
 export const ContactUs = () => {
