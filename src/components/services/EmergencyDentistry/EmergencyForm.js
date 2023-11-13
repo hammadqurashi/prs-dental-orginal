@@ -77,7 +77,7 @@ function EmergencyForm() {
           Send us a message
         </h2>
         <Froms />
-        <form className="mt-10" onSubmit={handleSubmit(onSubmit)}>
+        {/* <form className="mt-10" onSubmit={handleSubmit(onSubmit)}>
           <div className="my-4 grid-cols-2 grid gap-3">
             <Controller
               name="firstName"
@@ -122,7 +122,7 @@ function EmergencyForm() {
             )}
             Send Request
           </Button>
-        </form>
+        </form> */}
       </div>
 
       <div>
