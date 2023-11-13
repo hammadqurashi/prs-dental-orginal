@@ -6,6 +6,7 @@ import { ErrorMessage } from "@hookform/error-message";
 import { toast } from "react-toastify";
 import axios from "axios";
 import { StaticImage } from "gatsby-plugin-image";
+import Froms from "./emergencyfrom"
 
 const Error = ({ errors, name }) => {
   return (
@@ -75,7 +76,7 @@ function EmergencyForm() {
         <h2 className="font-bold text-blue-gray-900 text-3xl">
           Send us a message
         </h2>
-
+        <Froms />
         <form className="mt-10" onSubmit={handleSubmit(onSubmit)}>
           <div className="my-4 grid-cols-2 grid gap-3">
             <Controller
