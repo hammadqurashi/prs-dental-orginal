@@ -21,6 +21,8 @@ module.exports = withMT({
           bridge: "#ff48a469",
         },
         secondary: "#FF48A4",
+        black: "#b0bec5",
+        red: "#f44336",
         background: "#EBFCFA",
         backgroundSecondary: "#FFF3F9",
 

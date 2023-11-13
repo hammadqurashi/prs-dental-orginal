@@ -100,7 +100,7 @@ export const ContactUs = () => {
         </div>
         <textarea
           minLength={200}
-          className="px-4 outline-none ring-2 ring-secondary/10 focus:ring-2 focus:ring-primary/40 rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-2"
+          className="px-4 outline-none ring-2 ring-black focus:ring-2 focus:ring-red rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-2"
           placeholder="Message"
           name="message"
           required
