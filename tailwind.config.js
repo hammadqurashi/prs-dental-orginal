@@ -22,6 +22,7 @@ module.exports = withMT({
         },
         secondary: "#FF48A4",
         otblack: "#b0bec5",
+        otwhite: "#fff",
         otred: "#f44336",
         background: "#EBFCFA",
         backgroundSecondary: "#FFF3F9",
