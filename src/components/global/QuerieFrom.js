@@ -105,6 +105,11 @@ export const ContactUs = () => {
           value={Message}
           onChange={(e) => setMessage(e.target.value)}
         />
+         {success && (
+          <p className="text-center text-lg p-4 ">
+            Thanks for contacting us. We will be in touch with you shortly.
+          </p>
+        )}
         <a href="#">
           <NormalButton
             variant={"blue"}
@@ -114,11 +119,7 @@ export const ContactUs = () => {
             Submit
           </NormalButton>
         </a>
-        {success && (
-          <p className="text-center text-lg p-4 ">
-            Thanks for contacting us. We will be in touch with you shortly.
-          </p>
-        )}
+       
       </form>
     </Spin>
   );
