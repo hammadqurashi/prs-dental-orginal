@@ -1,6 +1,6 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
-import QueriesForm from "../global/QueriesForm";
+import QueriesForm from "../global/QuerieFrom";
 import { GatsbyImage } from "gatsby-plugin-image";
 
 const Contact = () => {
