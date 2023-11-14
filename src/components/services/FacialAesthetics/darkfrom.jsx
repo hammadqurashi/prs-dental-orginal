@@ -54,7 +54,7 @@ export const ContactUs = () => {
       <form ref={form} onSubmit={sendEmail}>
       <div className="flex gap-4">
           <input
-            className="px-4 outline-none ring-1 ring-otblack focus:ring-1 focus:ring-otred rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-2"
+            className="px-4 outline-none ring-1 ring-otblack focus:ring-1  rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-2"
             placeholder="First Name"
             type="text"
             required
@@ -64,7 +64,7 @@ export const ContactUs = () => {
             onChange={(e) => setfirstName(e.target.value)}
           />
           <input
-            className="px-4 outline-none ring-1 ring-otblack focus:ring-1 focus:ring-otred rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-2"
+            className="px-4 outline-none ring-1 ring-otblack focus:ring-1  rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-2"
             placeholder="Last Name"
             type="text"
             required
@@ -78,7 +78,7 @@ export const ContactUs = () => {
           <input
             minLength={10}
             maxLength={11}
-            className="px-4 outline-none ring-1 ring-otblack focus:ring-1 focus:ring-otred rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-2"
+            className="px-4 outline-none ring-1 ring-otblack focus:ring-1  rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-2"
             placeholder="Phone Number"
             type="number"
             required
@@ -88,7 +88,7 @@ export const ContactUs = () => {
             onChange={(e) => setNumber(e.target.value)}
           />
           <input
-            className="px-4 outline-none ring-1 ring-otblack focus:ring-1 focus:ring-otred rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-2"
+            className="px-4 outline-none ring-1 ring-otblack focus:ring-1  rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-2"
             placeholder="Email"
             type="email"
             required
@@ -100,7 +100,7 @@ export const ContactUs = () => {
         </div>
         <textarea
           minLength={200}
-          className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
+          className="px-4 outline-none ring-1 ring-otblack focus:ring-1 rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
           placeholder="Message"
           name="message"
           required
