@@ -100,7 +100,7 @@ export const ContactUs = () => {
         </div>
         <textarea
           minLength={200}
-          className="px-4 bg-transparent	 outline-none ring-1 ring-otblack focus:ring-1 focus:ring-otwhite rounded  my-3 transition-all w-full text-gray-500	focus:text-white py-4"
+          className="px-4 bg-transparent outline-none ring-1 ring-otblack focus:ring-1 focus:ring-otwhite rounded  my-3 transition-all w-full text-gray-500	focus:text-white py-4"
           placeholder="Message"
           name="message"
           required
@@ -119,7 +119,7 @@ export const ContactUs = () => {
             fullWidth
             type="submit"
             variant="outlined"
-            className="text-white focus:ring-secondary/20 border-white"
+            className="text-white focus:ring-otwhite border-otblack"
           >
             Submit
           </Button>
