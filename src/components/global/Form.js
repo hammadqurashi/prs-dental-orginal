@@ -94,10 +94,20 @@ export const ContactUs = () => {
           value={Email}
           onChange={(e) => setEmail(e.target.value)}
         />
+        <input
+          className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
+          placeholder="Address"
+          type="text"
+          required
+          name="last_name"
+          ref={fname}
+          value={lastName}
+          onChange={(e) => setlastName(e.target.value)}
+        />
         <textarea
           minLength={200}
           className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
-          placeholder="Message"
+          placeholder="What type of appointment/ treatment do you feel you require?"
           name="message"
           required
           rows={5}
