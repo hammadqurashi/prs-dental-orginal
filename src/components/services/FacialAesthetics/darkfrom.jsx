@@ -52,48 +52,52 @@ export const ContactUs = () => {
   return (
     <Spin spinning={Loading}>
       <form ref={form} onSubmit={sendEmail}>
-        <input
-          className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
-          placeholder="First Name"
-          type="text"
-          required
-          name="first_name"
-          ref={fname}
-          value={firstName}
-          onChange={(e) => setfirstName(e.target.value)}
-        />
-        <input
-          className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
-          placeholder="Last Name"
-          type="text"
-          required
-          name="last_name"
-          ref={fname}
-          value={lastName}
-          onChange={(e) => setlastName(e.target.value)}
-        />
-        <input
-          minLength={10}
-          maxLength={11}
-          className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
-          placeholder="Phone Number"
-          type="number"
-          required
-          name="number"
-          ref={fname}
-          value={Number}
-          onChange={(e) => setNumber(e.target.value)}
-        />
-        <input
-          className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
-          placeholder="Email"
-          type="email"
-          required
-          name="user_email"
-          ref={fname}
-          value={Email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
+      <div className="flex gap-4">
+          <input
+            className="px-4 outline-none ring-1 ring-otblack focus:ring-1 focus:ring-otred rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-2"
+            placeholder="First Name"
+            type="text"
+            required
+            name="first_name"
+            ref={fname}
+            value={firstName}
+            onChange={(e) => setfirstName(e.target.value)}
+          />
+          <input
+            className="px-4 outline-none ring-1 ring-otblack focus:ring-1 focus:ring-otred rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-2"
+            placeholder="Last Name"
+            type="text"
+            required
+            name="last_name"
+            ref={fname}
+            value={lastName}
+            onChange={(e) => setlastName(e.target.value)}
+          />
+        </div>
+        <div className="flex gap-4">
+          <input
+            minLength={10}
+            maxLength={11}
+            className="px-4 outline-none ring-1 ring-otblack focus:ring-1 focus:ring-otred rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-2"
+            placeholder="Phone Number"
+            type="number"
+            required
+            name="number"
+            ref={fname}
+            value={Number}
+            onChange={(e) => setNumber(e.target.value)}
+          />
+          <input
+            className="px-4 outline-none ring-1 ring-otblack focus:ring-1 focus:ring-otred rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-2"
+            placeholder="Email"
+            type="email"
+            required
+            name="user_email"
+            ref={fname}
+            value={Email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+        </div>
         <textarea
           minLength={200}
           className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
