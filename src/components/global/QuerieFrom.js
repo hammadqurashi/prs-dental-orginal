@@ -95,7 +95,7 @@ export const ContactUs = () => {
           onChange={(e) => setEmail(e.target.value)}
         />
         <textarea
-          minLength={200}
+          minLength={80}
           className="px-4 outline-none ring-2 ring-primary/10 focus:ring-2 focus:ring-primary/40 rounded  my-3 transition-all w-full text-neutral-400 focus:text-neutral-600 py-4"
           placeholder="Message"
           name="message"
