@@ -96,7 +96,7 @@ export default function App() {
                       size="lg"
                     >
                       <BsFillCalendarDateFill className="mr-3 text-lg" />
-                      Register now
+                      Register NHS Under 18 
                     </Button>
                   </a>
                 </a>
