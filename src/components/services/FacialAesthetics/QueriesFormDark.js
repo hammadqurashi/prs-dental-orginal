@@ -4,6 +4,7 @@ import { Controller, useForm } from "react-hook-form";
 import { ErrorMessage } from "@hookform/error-message";
 import axios from "axios";
 import { toast } from "react-toastify";
+import Froms from "./darkfrom"
 
 const Error = ({ errors, name }) => {
   return (
@@ -67,6 +68,8 @@ const QueriesFormDark = () => {
   };
 
   return (
+    <>
+    <Froms/>
     <form onSubmit={handleSubmit(onSubmit)} className="mt-5">
       <div className="grid grid-cols-1 lg:grid-cols-2 mb-3 lg:mb-5 gap-4">
         <div className="mb-1 lg:mb-0">
@@ -190,6 +193,7 @@ const QueriesFormDark = () => {
         Submit
       </Button>
     </form>
+    </>
   );
 };
 
