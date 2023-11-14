@@ -2,7 +2,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import React from "react";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import { StaticImage } from "gatsby-plugin-image";
-import QueriesForm from "../../global/QueriesForm";
+import QueriesForm from "../../global/QuerieFrom";
 const ContactPageForm = () => {
   const data = useStaticQuery(graphql`
     query ServicesPageContactQuery {
@@ -41,7 +41,7 @@ const ContactPageForm = () => {
         <ReactMarkdown className="text-gray-600 mx-auto my-5 text-base leading-8">
         Ready to take control of your dental health? Contact us to book your appointment today!
         </ReactMarkdown>
-        <QueriesForm inputBg="bg-white" />
+        <QueriesForm  />
       </div>
     </section>
   );
