@@ -70,7 +70,7 @@ const QueriesFormDark = () => {
   return (
     <>
     <Froms/>
-    <form onSubmit={handleSubmit(onSubmit)} className="mt-5">
+    {/* <form onSubmit={handleSubmit(onSubmit)} className="mt-5">
       <div className="grid grid-cols-1 lg:grid-cols-2 mb-3 lg:mb-5 gap-4">
         <div className="mb-1 lg:mb-0">
           <Controller
@@ -192,7 +192,7 @@ const QueriesFormDark = () => {
       >
         Submit
       </Button>
-    </form>
+    </form> */}
     </>
   );
 };
