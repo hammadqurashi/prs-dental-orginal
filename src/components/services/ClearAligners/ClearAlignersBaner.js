@@ -13,15 +13,14 @@ const ClearAlignersBaner = () => {
       />
       <div className="absolute lg:left-28 left-1/2 -translate-x-1/2 lg:translate-x-0 top-1/2 text-white -translate-y-1/2 z-[2]">
         <h1 className="font-bold text-2xl lg:text-6xl leading-[1.2] lg:leading-tight text-center lg:text-left whitespace-nowrap">
-          Clear Aligners: The Future <br/> of Invisible Teeth Straightening
+          Parish Dental: Your Trusted
+          <br /> Partner in Oral Health
         </h1>
         <p className="leading-8 my-5 lg:max-w-[700px] max-w-none text-center lg:text-left">
-          Welcome to the ultimate guide to Clear Aligners, a revolutionary
-          alternative to traditional metal braces! Clear Aligners have been a
-          game-changer in the world of orthodontics, offering a discreet and
-          effective solution for teeth straightening. Explore this page to find
-          everything you need to know about clear aligners, from their benefits
-          to how to choose the right set for you.
+          At ParishDental, our experienced oral surgeons are dedicated to
+          providing you with the highest standard of care. Utilizing the latest
+          techniques and technologies, we ensure a comfortable and effective
+          treatment experience.
         </p>
 
         <a
