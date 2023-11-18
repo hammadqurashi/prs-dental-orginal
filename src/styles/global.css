@@ -421,7 +421,7 @@ details > summary::-webkit-details-marker {
   color: #0000007d;
   line-height: 25px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   .nove {
     width: 100%;
   }
@@ -430,6 +430,9 @@ details > summary::-webkit-details-marker {
   }
   .nove-3 {
     width: 100%;
+  }
+  .flexe{
+    flex-direction: column;
   }
 }
 
