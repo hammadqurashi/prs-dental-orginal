@@ -11,56 +11,61 @@ const AestheticsServices = () => {
   const aesthetics = [
     {
       id: 1,
-      name: "Botox",
+      name: "Gold Grillz: Timeless Luxury",
       icon: BotoxIcon,
       description:
-        "Botox is a non-surgical treatment that smooths out wrinkles and fine lines, giving you a more youthful appearance.",
+        "Our gold grillz exude classic elegance. Whether you prefer yellow, white, or rose gold, we offer a variety of karat options to match your taste. Gold grillz are perfect for adding a touch of timeless sophistication to your smile.",
     },
     {
       id: 2,
-      name: "Dermal fillers",
+      name: "Silver Grillz: Sleek and Modern",
       icon: DermaFillerIcon,
       description:
-        "Dermal fillers are used to add volume and fullness to areas of the face that have lost volume due to aging or other factors. ",
+        "Opt for the sleek appeal of silver grillz. Known for their modern and versatile look, silver grillz are a popular choice for those seeking a chic, understated style that complements any outfit or occasion.",
     },
     {
       id: 3,
-      name: "Chemical peels",
+      name: "Diamond Grillz: Dazzling Brilliance",
       icon: ChemicalPeelIcon,
       description:
-        "Chemical peels are an effective way to rejuvenate the skin by removing dead skin cells and promoting the growth of new, healthy skin.",
+        "Elevate your smile with the ultimate statement of luxury - diamond grillz. Our diamonds are meticulously set to maximize sparkle and impact, ensuring your smile catches every light and eye in the room.",
     },
     {
       id: 4,
-      name: "Lip enhancement",
+      name: "Perfect Fit, Guaranteed",
       icon: LipEnhanceIcon,
       description:
-        "Our lip enhancement treatments are designed to add volume and definition to your lips, giving you a fuller and more youthful appearance.",
+        "Comfort is key. Our grillz are custom-made to fit your teeth flawlessly, ensuring maximum comfort without compromising on style",
     },
     {
       id: 5,
-      name: "Skin Rejuvenation",
+      name: "Shine in Your Unique Way",
       icon: SkinRejuvenIcon,
       description:
-        "Our skin rejuvenation treatments are designed to reduce the appearance of fine lines, wrinkles, and other signs of aging.",
+        "Ready to create your signature grillz? Contact Parish Dental today for a consultation. Our experts are excited to help you design a piece that's as unique as you are.",
     },
     {
       id: 6,
-      name: "Microneedling",
+      name: "Contact Parish Dental Today!",
       icon: MicroneedlingIcon,
       description:
-        "We offer microneedling as a safe and effective treatment to help improve the overall health and appearance of your skin.",
+        "Discover your dazzling smile with Patish Dental",
     },
   ];
   return (
     <section className="container mx-auto px-10 mt-28">
       <h2 className="text-4xl text-center font-semibold mb-16">
-        Aesthetics Treatments
+        Tailored Elegance: Gold, Silver, and Diamond Grillz
       </h2>
+      <p className="text-lg lg:text-xl">
+        At Parish Dental, we believe in a personalized approach to dental
+        aesthetics. Our custom grillz are more than just accessories; they are a
+        reflection of your individual style and flair. Choose from gold, silver,
+        and diamond options to create a look that's uniquely yours.
+      </p>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {aesthetics.map((item) => (
           <div className="flex flex-col items-center bg-[#242625] rounded-md p-5 shadow-lg">
-            <img src={item.icon} alt="" width={80} />
             <h4 className="text-center mt-3 text-2xl font-medium mb-3">
               {item.name}
             </h4>
