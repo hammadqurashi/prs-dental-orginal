@@ -3,7 +3,6 @@ import ClearAlignersBaner from "./ClearAlignersBaner";
 import ClrarContent from "./ClrarContent";
 import Faq from "./Faq";
 import ContactInfo from "./ContactInfo";
-import Slide from "./slide";
 
 
 
