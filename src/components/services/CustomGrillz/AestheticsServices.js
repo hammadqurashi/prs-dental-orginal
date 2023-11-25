@@ -53,8 +53,8 @@ const AestheticsServices = () => {
     },
   ];
   return (
-    <section className="container mx-auto px-10 mt-28 mb-5">
-      <h2 className="text-4xl text-center font-semibold ">
+    <section className="container mx-auto px-10 mt-28 ">
+      <h2 className="text-4xl text-center font-semibold mb-6">
         Tailored Elegance: Gold, Silver, and Diamond Grillz
       </h2>
       <p className="text-medium leading-8 text-gray-400 max-w-5xl text-center mx-auto mb-16">

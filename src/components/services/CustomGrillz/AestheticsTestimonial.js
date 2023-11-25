@@ -40,26 +40,12 @@ const AestheticsTestimonial = () => {
   const testimonials = [
     {
       id: 1,
-      title: "Boosted Confidence",
+      title: "Parish Dental Grillz: Your Smile, Our Craftsmanship - Delivered Worldwide",
       description:
-        "Choosing Parish Dental for my Aesthetics treatment was undeniably the best decision I've made for myself. The moment I entered their clinic, I was greeted by a warm and welcoming atmosphere that instantly put me at ease. The team's professionalism, personalised approach, and commitment to excellence were evident throughout my entire journey. Parish Dental truly exceeded my expectations, leaving me with a refreshed and youthful appearance that has positively impacted my life.",
+        "At Parish Dental, we believe in making luxury accessible. That's why we're thrilled to offer our exclusive grillz with worldwide delivery. No matter where you are, you can have custom-crafted, dazzling grillz delivered right to your doorstep.",
 
       name: "Charlotte Davis",
-    },
-    {
-      id: 2,
-      title: "Artistry and Expertise",
-      description:
-        "I am forever grateful to Parish Dental for their incredible artistry and expertise in Aesthetics. Their talented team possesses an eye for detail and an exceptional understanding of Aesthetics. Through their skilled hands, I witnessed the transformation of my features into a harmonious and natural-looking appearance. I highly recommend Parish Dental for their unparalleled craftsmanship and dedication to delivering outstanding results.",
-      name: "Lily Clarke",
-    },
-    {
-      id: 3,
-      title: "Best Decision Ever",
-      description:
-        "Parish Dental has given me a new lease on life with their exceptional Aesthetics services. From the moment I stepped into their clinic, I felt welcomed and supported. The team's professionalism and attention to detail in understanding my unique needs truly boosted my confidence.I can now confidently face the world with a renewed sense of self- assurance, thanks to Parish Dental",
-      name: "Ella Mitchell",
-    },
+    }
   ];
 
   return (
@@ -72,7 +58,7 @@ const AestheticsTestimonial = () => {
           />
         </div>
         <div className="mt-10 lg:mt-0  lg:max-w-[660px] md:max-w pr-10 pl-5 flex flex-col justify-center">
-          <h2 className="text-4xl font-semibold mb-8">What Our Clients Say</h2>
+          <h2 className="text-4xl font-semibold mb-5">A Dazzling Smile, Just a Click Away!</h2>
 
           <div className="w-full">
             <CarouselProvider
@@ -103,13 +89,7 @@ const AestheticsTestimonial = () => {
                               {review.title}
                             </Typography>
                           </div>
-                          <div className="5 flex items-center gap-0">
-                            <StarIcon />
-                            <StarIcon />
-                            <StarIcon />
-                            <StarIcon />
-                            <StarIcon />
-                          </div>
+                        
                         </div>
                       </CardHeader>
                       <CardBody className="p-0 mt-3">
@@ -117,9 +97,7 @@ const AestheticsTestimonial = () => {
                           "{review.description}"
                         </Typography>
 
-                        <Typography className="text-secondary text-xl font-medium mt-3">
-                          {review.name}
-                        </Typography>
+                        
                       </CardBody>
                     </Card>
                   </Slide>

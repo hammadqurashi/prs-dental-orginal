@@ -16,6 +16,7 @@ const FacialAesthetics = () => {
       <div className="bg-[#1E1E1E] text-white">
         <AestheticsBanner />
         <AestheticsServices />
+        <AestheticsTestimonial />
         <QualityProducts />
         <OurValues />
         <PriceList />
