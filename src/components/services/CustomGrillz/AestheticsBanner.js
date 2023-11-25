@@ -8,7 +8,7 @@ const AestheticsBanner = () => {
     <section className="relative before:content-[''] before:absolute before:left-0 before:top-0 before:w-full before:h-full before:bg-[#1E1E1E] before:z-[1] before:opacity-70">
       <StaticImage
         layout="fullWidth"
-        className="h-[calc(100vh-130px)]"
+        className="h-2/3"
         src="https://grillz.com/cdn/shop/products/yellow-gold-grillz-los-angeles_1400x.png?v=1628904483"
       />
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-center z-[2]">
