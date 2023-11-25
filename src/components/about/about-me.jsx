@@ -5,7 +5,7 @@ const WhyChooseUs = () => {
       <div className="bg-video-wrap">
         <video
         className="video"
-          src="https://designsupply-web.com/samplecontent/vender/codepen/20181014.mp4"
+          src="https://res.cloudinary.com/db1i46uiv/video/upload/v1700947035/WhatsApp_Video_2023-11-25_at_09.44.27_1fd64fe5_bjb9rl.mp4"
           loop
           muted
           autoplay
@@ -132,12 +132,7 @@ const WhyChooseUs = () => {
           </div>
         </div>
       </section>
-      <section className="mt-20">
-        <video className="l" controls autoPlay>
-          <source src="" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </section>
+    
     </>
   );
 };
