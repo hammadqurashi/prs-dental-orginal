@@ -63,7 +63,7 @@ export function Head({ data }) {
   return (
     <>
       <html lang="en" />
-      <title>{pageTitle}</title>
+      <title></title>
     </>
   );
 }
