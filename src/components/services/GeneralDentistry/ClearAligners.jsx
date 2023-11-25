@@ -3,12 +3,16 @@ import ClearAlignersBaner from "./ClearAlignersBaner";
 import ClrarContent from "./ClrarContent";
 import Faq from "./Faq";
 import ContactInfo from "./ContactInfo";
+import Slide from "./slide";
+
+
 
 const ClearAligners = () => {
   return (
     <>
       <ClearAlignersBaner />
       <ClrarContent />
+      <Slide/>
       <Faq />
       <section className="container mx-auto px-10 py-12">
         <div className="tab1 py-6">
@@ -20,6 +24,7 @@ const ClearAligners = () => {
           </p>
         </div>
       </section>
+
       <ContactInfo />
     </>
   );
