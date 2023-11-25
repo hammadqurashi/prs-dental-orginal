@@ -12,7 +12,7 @@ const ClearAligners = () => {
     <>
       <ClearAlignersBaner />
       <ClrarContent />
-      <Slide/>
+
       <Faq />
       <section className="container mx-auto px-10 py-12">
         <div className="tab1 py-6">
