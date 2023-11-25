@@ -2,14 +2,7 @@ import React from "react";
 const WhyChooseUs = () => {
   return (
     <>
-      <header className="video-container">
-        <video autoPlay loop muted>
-          <source src="https://res.cloudinary.com/db1i46uiv/video/upload/v1700947035/WhatsApp_Video_2023-11-25_at_09.44.27_1fd64fe5_bjb9rl.mp4" type="video/mp4" />
-        </video>
-        <div className="overlay">
-          <h1>About us</h1>
-        </div>
-      </header>
+     
 
       <section className=" container mx-auto px-10 my-40">
         <div className="lg:grid-cols-[35%_65%] grid-cols-[100%] contaier-grid gap-11 grid dpdc ">
