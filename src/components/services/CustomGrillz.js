@@ -17,8 +17,8 @@ const FacialAesthetics = () => {
         <AestheticsBanner />
         <AestheticsServices />
         <AestheticsTestimonial />
-        <QualityProducts />
         <OurValues />
+        <QualityProducts />
         <PriceList />
         <AestheticsTestimonial />
         <ThingsToKnow />

@@ -34,8 +34,8 @@ const OurValues = () => {
   ];
   return (
     <section className="container mx-auto px-10 mt-28">
-      <h2 className="text-4xl text-center font-semibold mb-16">Our Values</h2>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-7">
+      <h2 className="text-4xl text-center font-semibold mb-16">How It Works</h2>
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-7">
         {points.map((item) => (
           <div className="px-2 py-5 rounded-md flex flex-col items-center ">
             <h3 className="text-white text-center mb-3 text-xl font-medium">

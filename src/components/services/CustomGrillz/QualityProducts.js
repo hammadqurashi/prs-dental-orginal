@@ -1,50 +1,47 @@
 import React from "react";
 
-import HaDermaImage from "../../../images/ha-derma.svg";
-import AliaxinImage from "../../../images/aliaxin.svg";
-import ProfhiloImage from "../../../images/profhilo-white.png";
-
-const QualityProducts = () => {
+const AestheticsTestimonial = () => {
   return (
-    <section>
-      <div className=" container px-10 mx-auto flex flex-col lg:flex-row mt-28">
-        <div className=" w-full lg:w-1/2">
-          <h2 className="text-4xl font-semibold mb-10">
-            We exclusively utilise premium-grade products of exceptional quality
-          </h2>
-          <p className="leading-8 text-gray-400">
-            Experience excellence with our Aesthetics services, where we use
-            only the finest products to ensure exceptional results each time.
-          </p>
-        </div>
-        <div className="w-full lg:w-1/2 flex flex-wrap p-3 pt-0 mt-10 lg:mt-0">
-          <div className="w-1/2 p-4">
-            <div className="bg-white rounded">
-              <img src={HaDermaImage} alt="HA Derma" />
-            </div>
-          </div>
-
-          <div className="w-1/2 p-4">
-            <div className="bg-white rounded flex justify-center items-start mb-10">
-              <img src={AliaxinImage} alt="HA Derma" />
-            </div>
-            <div className="">
-              <img src={ProfhiloImage} alt="HA Derma" />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className=" container px-10 mx-auto flex mt-7">
-        <p className="text-medium leading-8 text-gray-400 max-w-5xl text-center mx-auto">
-          Indulge in the finest aesthetic treatments you'll ever experience.
-          Through meticulous research, we have curated a selection of top-notch
-          products, ensuring utmost quality and satisfaction for our esteemed
-          clients. Prepare to be impressed.
+    <>
+      <section className="mt-28">
+        <h2 className="text-4xl text-center font-semibold mb-6">
+          One Year Guarantee
+        </h2>
+        <p className="text-medium leading-8 text-gray-400 max-w-5xl text-center mx-auto mb-16">
+          We stand by our craftsmanship. All our grillz come with a 1-year
+          guarantee, ensuring your satisfaction and peace of mind.
         </p>
-      </div>
-    </section>
+      </section>
+      <section className="mt-28">
+        <h2 className="text-4xl text-center font-semibold mb-6">
+          Why Choose Parish Dental Grillz?
+        </h2>
+        <p className="text-medium leading-8 text-gray-400 max-w-5xl text-center mx-auto mb-16">
+          <b>Worldwide Reach:</b>
+          No matter your location, our grillz are just a scan away.
+          <br /> - <b>Expert Craftsmanship:</b>
+          With attention to detail and quality, we create pieces that are
+          <br />
+          as unique as you. - <b>Personalized Experience:</b>
+          From design to delivery, your preferences are our priority.
+          <br /> - <b>Peace of Mind:</b>
+          Our 1-year guarantee means your investment is protected.
+          <br />
+        </p>
+      </section>
+      <section className="mt-28">
+        <h2 className="text-4xl text-center font-semibold mb-6">
+          Get Started Today
+        </h2>
+        <p className="text-medium leading-8 text-gray-400 max-w-5xl text-center mx-auto mb-16">
+          Transform your smile with Parish Dental Grillz. It's more than
+          jewelry; it's a statement. Contact us to begin your journey to a
+          radiant smile that transcends borders.
+        </p>
+      </section>
+    </>
   );
 };
+<br />;
 
-export default QualityProducts;
+export default AestheticsTestimonial;
