@@ -8,15 +8,15 @@ const AestheticsBanner = () => {
     <section className="relative before:content-[''] before:absolute before:left-0 before:top-0 before:w-full before:h-full before:bg-[#1E1E1E] before:z-[1] before:opacity-70">
       <StaticImage
         layout="fullWidth"
-        className="h-[calc(100vh-450px)]"
+        className="h-[calc(100vh-150px)] xl:h-[calc(100vh-350px)]"
         src="https://grillz.com/cdn/shop/products/yellow-gold-grillz-los-angeles_1400x.png?v=1628904483"
       />
-      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-center z-[2]">
+      <div className="py-6 xl:py-0 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-center z-[2]">
         <h3 className="text-3xl lg:text-4xl font-light mb-3">
          Crafting Brilliance, One Smile at a Time
         </h3>
         <div className="border-b mb-10 max-w-[300px] mx-auto"></div>
-        <h1 className="font-bold text-5xl lg:text-7xl mb-5 whitespace-nowrap">
+        <h1 className="font-bold text-5xl lg:text-7xl mb-5 whitespace-normal xl:whitespace-nowrap">
         Custom Grillz Crafted for Stardom 
         </h1>
         <p className="text-lg lg:text-2xl">
