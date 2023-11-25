@@ -59,6 +59,21 @@ const ClearAlignersBaner = () => {
       </div>
       <div className="tab1 py-16">
         <h1 className="blue text-3xl t-style-2	pb-16">
+        Post-operative instructions after a tooth extraction
+        </h1>
+        <p className="p-style-2">
+        Post-operative instructions after a tooth extraction are crucial for a smooth recovery and to minimize the risk of complications. Here's a general guide, but remember to follow any specific instructions given by your dentist or oral surgeon:
+        <p className="p-style-2"> • <b>Bleeding Management:</b> <br />
+   - Bite on a gauze pad firmly for 30-60 minutes after the extraction. <br />
+   - If bleeding continues, replace the gauze and bite down for another 30 minutes.
+</p>
+        <p className="p-style-2"> • State-of-the-Art Facilities</p>
+        <p className="p-style-2"> • Patient-Centric Approach</p>
+        <p className="p-style-2">• Affordable and Transparent Pricing</p>
+        </p>
+      </div>
+      <div className="tab1 py-16">
+        <h1 className="blue text-3xl t-style-2	pb-16">
           Book Your Appointment Today
         </h1>
         <p className="p-style-2">
