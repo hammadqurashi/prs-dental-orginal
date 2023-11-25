@@ -14,7 +14,7 @@ const Faq = () => {
       faqs: [
         {
           id: 1,
-          ques: "How long do I have to wear clear aligners each day?",
+          ques: "How long do I have to wear tooth’s extraction each day?",
           ans: "It's recommended to have a dental check-up every six months, although some people may require more frequent visits.",
         },
         {

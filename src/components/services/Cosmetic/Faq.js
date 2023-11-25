@@ -27,6 +27,21 @@ const Faq = () => {
           ques: "Is Cosmetic Dentistry only about aesthetics?",
           ans: "While the primary focus is aesthetics, some procedures like dental implants also restore function.",
         },
+        {
+          id: 4,
+          ques: "How long do I have to wear clear aligners each day?",
+          ans: "It's recommended to have a dental check-up every six months, although some people may require more frequent visits.",
+        },
+        {
+          id: 5,
+          ques: "What is the difference between a general dentist and a specialist?",
+          ans: "A general dentist provides a wide range of dental services, while specialists like orthodontists or periodontists focus on specific areas of dentistry.",
+        },
+        {
+          id: 6,
+          ques: "Can general dentists perform cosmetic procedures?",
+          ans: "Many general dentists offer basic cosmetic procedures like teeth whitening and dental veneers.",
+        },
       ],
     },
   ];
