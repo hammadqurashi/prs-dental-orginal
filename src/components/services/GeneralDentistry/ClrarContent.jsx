@@ -18,33 +18,36 @@ const ClearAlignersBaner = () => {
         <h1 className="blue text-3xl  t-style-2	pb-16">
           Services Offered in General Dentistry
         </h1>
-        <div className="flexe">
-          <div className="nove-1">
+        <div className="flexe pb-10">
+          <div className="nove">
             <h2 className="blue text-2xl	pt-2.5 ">Regular Check-ups</h2>
-
             <p>
               Routine dental check-ups are essential for maintaining good oral
               health. These appointments typically include a dental cleaning,
               X-rays, and an examination by the dentist.
             </p>
           </div>
-          <div className="nove-1">
-            <h2 className="blue text-2xl	pt-2.5 ">Dental Fillings</h2>
+          <div className="nove">
+            <h2 className="blue text-2xl	pt-2.5 "> Dental Fillings</h2>
 
             <p>
               Dental fillings are used to restore teeth damaged by decay back to
               their normal function and shape.
             </p>
           </div>
-          <div className="nove-1">
-            <h2 className="blue text-2xl	pt-2.5 ">Tooth Extractions</h2>
+          <div className="nove">
+            <h2 className="blue text-2xl	pt-2.5 "> Tooth Extractions</h2>
 
             <p>
               Sometimes a tooth may need to be removed due to decay, disease, or
               crowding. General dentists can perform simple extractions.
             </p>
           </div>
-          <div className="nove-1">
+        </div>
+
+        <div className="flexe">
+          <div className="nove-1"></div>
+          <div className="nove">
             <h2 className="blue text-2xl	pt-2.5 ">Preventative Care</h2>
 
             <p>
@@ -53,7 +56,7 @@ const ClearAlignersBaner = () => {
               flossing, and diet.
             </p>
           </div>
-          <div className="nove-1">
+          <div className="nove">
             <h2 className="blue text-2xl	pt-2.5 ">Gum Disease Treatment</h2>
 
             <p>
@@ -61,7 +64,7 @@ const ClearAlignersBaner = () => {
               another crucial aspect of general dentistry.
             </p>
           </div>
-          <div className="nove-1">
+          <div className="nove">
             <h2 className="blue text-2xl	pt-2.5 ">Dental Crowns and Bridges</h2>
 
             <p>
@@ -107,19 +110,19 @@ const ClearAlignersBaner = () => {
         <h1 className="blue text-3xl t-style-2	pb-6">
           How to Choose a General Dentist
         </h1>
-        <p  className="p-style-2">
+        <p className="p-style-2">
           1. Qualifications: Make sure the dentist is board-certified and has
           good reviews.{" "}
         </p>
-        <p  className="p-style-2">
+        <p className="p-style-2">
           2. Location: A conveniently located clinic will make regular visits
           easier.{" "}
         </p>
-        <p  className="p-style-2">
+        <p className="p-style-2">
           3. Services Offered: Ensure that the dental office offers the range of
           services you and your family may need.
         </p>
-        <p  className="p-style-2">
+        <p className="p-style-2">
           4. Insurance: Check if the dental practice accepts your insurance.
         </p>
       </div>
