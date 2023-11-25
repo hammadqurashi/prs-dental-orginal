@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/global/Layout";
-import Griz from "../components/griz/griz";
+import Griz from "../components/services/CustomGrillz";
 import DynamicSeo from "../components/global/DynamicSeo";
 
 const AboutPage = () => {
