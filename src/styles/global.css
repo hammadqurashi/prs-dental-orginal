@@ -758,7 +758,7 @@ details > summary::-webkit-details-marker {
 
 .video-container {
   width: 100vw;
-  height: 100vh;
+  height: 800px;
   overflow: hidden;
   position: relative;
 }
