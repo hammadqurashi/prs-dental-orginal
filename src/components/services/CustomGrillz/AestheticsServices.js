@@ -46,10 +46,10 @@ const AestheticsServices = () => {
     },
     {
       id: 6,
-      name: "Contact Parish Dental Today!",
+      name: "Customization at Its Finest",
       icon: MicroneedlingIcon,
       description:
-        "Discover your dazzling smile with Patish Dental",
+        " Mix and match metals and gems for a truly unique creation. From fully iced-out designs to subtle accents, we tailor each piece to your specifications. Our expert team is dedicated to bringing your vision to life with precision and flair.",
     },
   ];
   return (
