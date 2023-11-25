@@ -15,7 +15,7 @@ const ClearAlignersBaner = () => {
         </p>
       </div>
       <div className="tab1 pb-14">
-        <h1 className="blue text-3xl  t-style-2	pb-16">
+        <h1 className="blue text-3xl  t-style-2	pb-8">
           Services Offered in General Dentistry
         </h1>
         <div className="flexe pb-10">
@@ -46,7 +46,6 @@ const ClearAlignersBaner = () => {
         </div>
 
         <div className="flexe">
-          <div className="nove-1"></div>
           <div className="nove">
             <h2 className="blue text-2xl	pt-2.5 ">Preventative Care</h2>
 
