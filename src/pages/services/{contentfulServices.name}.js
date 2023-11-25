@@ -3,6 +3,7 @@ import Layout from "../../components/global/Layout";
 import { graphql } from "gatsby";
 import { customSlugify } from "../../common/utils";
 import FacialAesthetics from "../../components/services/FacialAesthetics";
+import CustomGrillz from "../../components/services/CustomGrillz";
 import NotFoundPage from "../404";
 import DomiciliaryCare from "../../components/services/DomiciliaryCare";
 import Whitening from "../../components/services/Whitening/Whitening";
@@ -44,6 +45,7 @@ const ServicesSinglePage = ({ data }) => {
       {slug === "tooth-extraction" ? <ClearAligners /> : <NotFoundPage />}
       {slug === "mobile-dentistry" ? <DomiciliaryCare /> : <NotFoundPage />}
       {slug === "whitening" ? <Whitening /> : <NotFoundPage />}
+      {slug === "custom-grillz" ? <CustomGrillz /> : <NotFoundPage />}
       {slug === "emergency-dental" ? (
         <EmergencyDentistry />
       ) : (
