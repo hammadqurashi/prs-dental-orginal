@@ -59,17 +59,89 @@ const ClearAlignersBaner = () => {
       </div>
       <div className="tab1 py-16">
         <h1 className="blue text-3xl t-style-2	pb-16">
-        Post-operative instructions after a tooth extraction
+          Post-operative instructions after a tooth extraction
         </h1>
         <p className="p-style-2">
-        Post-operative instructions after a tooth extraction are crucial for a smooth recovery and to minimize the risk of complications. Here's a general guide, but remember to follow any specific instructions given by your dentist or oral surgeon:
-        <p className="p-style-2"> • <b>Bleeding Management:</b> <br />
-   - Bite on a gauze pad firmly for 30-60 minutes after the extraction. <br />
-   - If bleeding continues, replace the gauze and bite down for another 30 minutes.
-</p>
-        <p className="p-style-2"> • State-of-the-Art Facilities</p>
-        <p className="p-style-2"> • Patient-Centric Approach</p>
-        <p className="p-style-2">• Affordable and Transparent Pricing</p>
+          Post-operative instructions after a tooth extraction are crucial for a
+          smooth recovery and to minimize the risk of complications. Here's a
+          general guide, but remember to follow any specific instructions given
+          by your dentist or oral surgeon:
+          <br />
+          <br />
+          <p className="p-style-2">
+            <b> • Bleeding Management:</b> <br />
+            - Use over-the-counter pain relievers like ibuprofen or
+            acetaminophen as directed.
+            <br /> - If prescribed pain medication, take as instructed.
+          </p>
+          <br />
+          <p className="p-style-2">
+            <b> • Swelling and Bruising :</b> <br />- Apply an ice pack to the
+            cheek near the extraction site for 10 minutes on, then 10 minutes
+            off, during the first 24 hours.
+          </p>
+          <br />
+          <p className="p-style-2">
+            <b> • Rest:</b> <br />
+            - Relax for at least 24 hours after the extraction.
+            <br /> - Avoid strenuous activities for 2-3 days to reduce bleeding
+            and help the healing process.
+          </p>
+          <br />
+          <p className="p-style-2">
+            <b> • Oral Hygiene::</b> <br />
+            - Do not rinse your mouth for the first 24 hours.
+            <br /> - After 24 hours, gently rinse with warm salt water (1/2
+            teaspoon of salt in a cup of water) after meals and before bed.
+          </p>
+          <br />
+          <p className="p-style-2">
+            <b> • Bleeding Management:</b> <br />- Bite on a gauze pad firmly
+            for 30-60 minutes after the extraction. <br />- If bleeding
+            continues, replace the gauze and bite down for another 30 minutes.
+          </p>
+          <br />
+          <p className="p-style-2">
+            <b> • Eating and Drinking:</b> <br />
+            - Start with soft foods and liquids
+            <br /> - Avoid using a straw for the first few days to prevent
+            dislodging the blood clot. <br />- Avoid hot liquids and alcoholic
+            beverages in the first 24 hours.
+          </p>
+          <br />
+          <p className="p-style-2">
+            <b> • Smoking:</b> <br />- Avoid smoking for as long as possible
+            after the extraction, ideally for at least 48 hours.
+          </p>
+          <br />
+          <p className="p-style-2">
+            <b> • Protect the Clot:</b> <br />
+            - Avoid spitting or rinsing forcefully.
+            <br /> - Chew on the opposite side of your mouth.s.
+          </p>
+          <br />
+          <p className="p-style-2">
+            <b> • Medications:</b> <br />- Take any prescribed antibiotics as
+            directed to prevent infection.
+          </p>
+          <br />
+          <p className="p-style-2">
+            <b> • Follow-Up:</b> <br />- Keep any follow-up appointments with
+            your dentist or oral surgeon.
+          </p>
+          <br />
+          <p className="p-style-2">
+            <b> • Watch for Complications:</b> <br />- Look out for signs of
+            infection like fever, severe pain, or swelling that worsens after a
+            few days. Also, be aware of dry socket, a condition where the blood
+            clot fails to develop or is dislodged, leading to delayed healing.{" "}
+            <br />
+            <br />
+            Remember, these are general guidelines. Always adhere to the
+            specific instructions given by your healthcare provider, as they may
+            have additional or different recommendations based on your
+            individual case and health history.
+          </p>
         </p>
       </div>
       <div className="tab1 py-16">
