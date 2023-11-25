@@ -65,7 +65,7 @@ const AestheticsServices = () => {
       </p>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {aesthetics.map((item) => (
-          <div className="flex flex-col items-center bg-[#242625] rounded-md p-7 shadow-lg">
+          <div className="flex flex-col items-center bg-[#242625] rounded-md p-6 shadow-lg">
             <h4 className="text-center mt-3 text-2xl font-medium mb-3">
               {item.name}
             </h4>
