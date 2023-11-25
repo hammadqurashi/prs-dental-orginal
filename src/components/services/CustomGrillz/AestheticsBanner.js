@@ -27,7 +27,7 @@ const AestheticsBanner = () => {
           href="https://uk.dentalhub.online/soe/new/Parish%20Dental?pid=UKDRP02"
           target="_blank"
         >
-          <Button className="mt-12 bg-secondary hover:shadow-secondary/50">
+          <Button className="mt-12 px-14 py-4 text-xl bg-secondary hover:shadow-secondary/50">
             Book Now
           </Button>
         </a>
