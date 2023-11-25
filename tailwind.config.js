@@ -26,6 +26,7 @@ module.exports = withMT({
         otred: "#f44336",
         background: "#EBFCFA",
         backgroundSecondary: "#FFF3F9",
+        overley: "#2a006d4a",
 
         customPink: {
           50: "#FF48A4",

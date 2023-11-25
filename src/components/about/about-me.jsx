@@ -2,6 +2,11 @@ import React from "react";
 const WhyChooseUs = () => {
   return (
     <>
+    <section className=" pb-30 h-full w-full bg-cover bg-[url('https://res.cloudinary.com/db1i46uiv/video/upload/v1700947035/WhatsApp_Video_2023-11-25_at_09.44.27_1fd64fe5_bjb9rl.mp4')]" >
+      <div className="bg-overley">
+        <h1 className="text-8xl text-white text-center py-96">About Me</h1>
+      </div>
+    </section>
       <section className=" container mx-auto px-10 my-40">
         <div className="lg:grid-cols-[35%_65%] grid-cols-[100%] contaier-grid gap-11 grid dpdc ">
           <div className="left">
@@ -121,9 +126,9 @@ const WhyChooseUs = () => {
         </div>
       </section>
       <section className="mt-20">
-        <video className="h-full w-full rounded-lg" controls autoPlay>
+        <video className="l" controls autoPlay>
           <source
-            src="https://res.cloudinary.com/db1i46uiv/video/upload/v1700947035/WhatsApp_Video_2023-11-25_at_09.44.27_1fd64fe5_bjb9rl.mp4"
+            src=""
             type="video/mp4"
           />
           Your browser does not support the video tag.
