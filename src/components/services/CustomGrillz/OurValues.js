@@ -9,27 +9,27 @@ const OurValues = () => {
   const points = [
     {
       icon: GuidanceIcon,
-      title: "Expert Guidance",
+      title: "3D Scan Submission",
       description:
-        "We take immense pride in delivering expert advice and guidance to our valued clients.",
+        "Visit your nearest dental clinic and get a 3D scan of your teeth. Upload the scan to our secure platform. It's quick and easy!",
     },
     {
       icon: QualityIcon,
-      title: "Quality Assurance",
+      title: "Design & Craftsmanship",
       description:
-        "Our unwavering commitment lies in using the utmost quality products, with no room for compromise.",
+        "Our UK-based expert dental artisans will design your custom grillz. Using only the finest materials, your grillz will be crafted to perfection.",
     },
-    // {
-    //   icon: EleganceIcon,
-    //   title: "Natural Elegance",
-    //   description:
-    //     'Embracing the philosophy of "less is more", our focus is on achieving naturally beautiful results.',
-    // },
+    {
+      icon: EleganceIcon,
+      title: "Online Consultation",
+      description:
+        'Schedule an online video consultation with our UK-based dentists. Get professional advice and customize your grillz to your liking.',
+    },
     {
       icon: CommitmentIcon,
-      title: "Wholehearted Commitment",
+      title: "Delivery to Your Doorstep",
       description:
-        "Our motivation stems from a genuine desire to provide the best care, rather than being driven by sales incentives.",
+        "Within 4-6 weeks, your personalized grillz will be ready. We ship directly to you, ensuring a hassle-free experience.",
     },
   ];
   return (
@@ -38,7 +38,6 @@ const OurValues = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-7">
         {points.map((item) => (
           <div className="px-2 py-5 rounded-md flex flex-col items-center ">
-            <img src={item.icon} alt={item.title} width={70} className="mb-5" />
             <h3 className="text-white text-center mb-3 text-xl font-medium">
               {item.title}
             </h3>

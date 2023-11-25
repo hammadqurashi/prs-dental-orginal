@@ -16,7 +16,7 @@ const AestheticsBanner = () => {
          Crafting Brilliance, One Smile at a Time
         </h3>
         <div className="border-b mb-10 max-w-[300px] mx-auto"></div>
-        <h1 className="font-bold text-6xl lg:text-5xl mb-5 whitespace-nowrap">
+        <h1 className="font-bold text-5xl lg:text-7xl mb-5 whitespace-nowrap">
         Custom Grillz Crafted for Stardom 
         </h1>
         <p className="text-lg lg:text-2xl">
