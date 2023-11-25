@@ -57,9 +57,7 @@ const ServicesSinglePage = ({ data }) => {
 
 export default ServicesSinglePage;
 
-export function Head({ data }) {
-  const { seoMetadata } = data?.contentfulServices;
-  const { pageTitle } = seoMetadata;
+export function Head() {
   return (
     <>
       <html lang="en" />
