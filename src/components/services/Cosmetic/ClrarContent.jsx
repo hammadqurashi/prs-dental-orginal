@@ -127,7 +127,7 @@ const ClearAlignersBaner = () => {
       </div>
       <div className="tab1 py-6">
         <h1 className="blue text-3xl  t-style-2	py-4">Eductional Videos</h1>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid md:grid-cols-2 gap-4">
           <video src={video1} controls className="w-full"></video>
           <video src={video2} controls className="w-full"></video>
           <video src={video3} controls className="w-full"></video>
