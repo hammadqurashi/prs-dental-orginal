@@ -1,10 +1,13 @@
 import React from "react";
+import aboutVideo from "../../../static/videos/about.mp4";
+
 const WhyChooseUs = () => {
   return (
     <>
-     
-
-      <section className=" container mx-auto px-10 my-40">
+      <section className=" container mx-auto px-10 mb-40">
+        <div className="w-full my-14">
+          <video src={aboutVideo} className="w-full"></video>
+        </div>
         <div className="lg:grid-cols-[35%_65%] grid-cols-[100%] contaier-grid gap-11 grid dpdc ">
           <div className="left">
             <div className="image">

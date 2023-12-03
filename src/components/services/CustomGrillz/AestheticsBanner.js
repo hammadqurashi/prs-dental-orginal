@@ -2,6 +2,7 @@ import { Button } from "@material-tailwind/react";
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 import { BsCalendarCheck } from "react-icons/bs";
+import customeGrillzImg from "../../../../static/img/custom-grillz.png";
 
 const AestheticsBanner = () => {
   return (
@@ -13,14 +14,14 @@ const AestheticsBanner = () => {
       />
       <div className="py-6 xl:py-0 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-center z-[2]">
         <h3 className="text-3xl lg:text-4xl font-light mb-3">
-         Crafting Brilliance, One Smile at a Time
+          Crafting Brilliance, One Smile at a Time
         </h3>
         <div className="border-b mb-10 max-w-[300px] mx-auto"></div>
         <h1 className="font-bold text-5xl lg:text-7xl mb-5 whitespace-normal xl:whitespace-nowrap">
-        Custom Grillz Crafted for Stardom 
+          Custom Grillz Crafted for Stardom
         </h1>
         <p className="text-lg lg:text-2xl">
-        Expert in Custom Grillz for Entertainment Industry
+          Expert in Custom Grillz for Entertainment Industry
         </p>
 
         <a

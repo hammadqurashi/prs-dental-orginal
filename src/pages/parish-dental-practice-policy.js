@@ -2,12 +2,117 @@ import React from "react";
 import Layout from "../components/global/Layout";
 import PageHeader from "../components/global/PageHeader";
 
+const policies = [
+  {
+    name: "CCTV Policy",
+    href: "/policies/Policies/CCTV-Policy.pdf",
+  },
+  {
+    name: "Complaints Policy",
+    href: "/policies/Policies/Complaints-Policy.pdf",
+  },
+  {
+    name: "Failed Appointments and Short Notice Cancellations Policy",
+    href: "/policies/Policies/Failed-Appointments-and-Short-Notice-Cancellations-Policy.pdf",
+  },
+  {
+    name: "GDPR Policy",
+    href: "/policies/Policies/GDPR-Policy.pdf",
+  },
+  {
+    name: "Grievance Policy",
+    href: "/policies/Policies/Grievance-Policy.pdf",
+  },
+  {
+    name: "Neddle Stick Injury Protocol",
+    href: "/policies/Policies/Neddle-Stick-Injury-Protocol.pdf",
+  },
+  {
+    name: "Patient Deregistration Policy",
+    href: "/policies/Policies/Patient-Deregistration-Policy.pdf",
+  },
+  {
+    name: "Pest Control Policy",
+    href: "/policies/Policies/Pest-Control-Policy.pdf",
+  },
+  {
+    name: "Registration Policy",
+    href: "/policies/Policies/Registration-Policy.pdf",
+  },
+  {
+    name: "Sick Leave Policy",
+    href: "/policies/Policies/Sick-Leave-Policy.pdf",
+  },
+];
+
+const consent = [
+  {
+    name: "Consent Bonding",
+    href: "/policies/Consent/Consent-Bonding.pdf",
+  },
+  {
+    name: "Consent Bridge",
+    href: "/policies/Consent/Consent-Bridge.pdf",
+  },
+  {
+    name: "Consent Crown",
+    href: "/policies/Consent/Consent-Crown.pdf",
+  },
+  {
+    name: "Consent-Extraction",
+    href: "/policies/Consent/Consent-Extraction.pdf",
+  },
+  {
+    name: "Consent-Filling",
+    href: "/policies/Consent/Consent-Filling.pdf",
+  },
+  {
+    name: "Consent-Flexible-Denture",
+    href: "/policies/Consent/Consent-Flexible-Denture.pdf",
+  },
+  {
+    name: "Consent-Grills-for-Music-and-Film-Industry",
+    href: "/policies/Consent/Consent-Grills-for-Music-and-Film-Industry.pdf",
+  },
+  {
+    name: "Consent-Implant",
+    href: "/policies/Consent/Consent-Implant.pdf",
+  },
+  {
+    name: "Consent-Root-Canal",
+    href: "/policies/Consent/Consent-Root-Canal.pdf",
+  },
+  {
+    name: "Consent-Veneer",
+    href: "/policies/Consent/Consent-Veneer.pdf",
+  },
+  {
+    name: "Consent-Whitening",
+    href: "/policies/Consent/Consent-Whitening.pdf",
+  },
+];
+
+const poig = [
+  {
+    name: "POIG - Root Canal",
+    href: "/policies/POIG/POIG-Root-Canal.pdf",
+  },
+  {
+    name: "POIG - Tooth Extraction",
+    href: "/policies/POIG/POIG-Tooth-Extraction.pdf",
+  },
+  {
+    name: "POIG - Whitening",
+    href: "/policies/POIG/POIG-Whitening.pdf",
+  },
+];
+
 const ParishDentalPracticePolicy = () => {
   return (
     <Layout>
       <PageHeader pageTitle="Parish Dental Practice Policy" />
-      <div className="container mx-auto my-40">
-        <details>
+      <div className="container mx-auto my-10">
+        {/* <details>
           <summary class="accordion">Failed to attend policy</summary>
 
           <div class="accordionDrop">
@@ -382,7 +487,52 @@ const ParishDentalPracticePolicy = () => {
               8DQ
             </p>
           </div>
-        </details>
+        </details> */}
+
+        <div className="mx-2">
+          <div className="flex flex-col gap-3">
+            <h1 className="text-lg md:text-2xl font-bold text-[#157fb4]">
+              - Parish Dental Practice Policy
+            </h1>
+            {policies?.map((policy) => (
+              <a
+                href={policy.href}
+                download={policy.name}
+                className="text-base font-bold w-max"
+              >
+                {policy.name}
+              </a>
+            ))}
+          </div>
+          <div className="flex flex-col gap-3 my-7">
+            <h1 className="text-lg md:text-2xl font-bold text-[#157fb4]">
+              - Parish Dental Consent Forms
+            </h1>
+            {consent?.map((item) => (
+              <a
+                href={item.href}
+                download={item.name}
+                className="text-base font-bold w-max"
+              >
+                {item.name}
+              </a>
+            ))}
+          </div>
+          <div className="flex flex-col gap-3 my-3">
+            <h1 className="text-lg md:text-2xl font-bold text-[#157fb4]">
+              - Parish Dental Post Operative Instructions
+            </h1>
+            {poig?.map((item) => (
+              <a
+                href={item.href}
+                download={item.name}
+                className="text-base font-bold w-max"
+              >
+                {item.name}
+              </a>
+            ))}
+          </div>
+        </div>
       </div>
     </Layout>
   );

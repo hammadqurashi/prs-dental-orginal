@@ -44,7 +44,7 @@ const MobileMenu = ({ open, setOpen }) => {
     <Drawer
       open={open}
       onClose={closeDrawer}
-      className="p-4"
+      className="p-4 fixed top-0 bottom-0 h-screen"
       overlayProps={{
         className: "fixed",
       }}
@@ -72,7 +72,7 @@ const MobileMenu = ({ open, setOpen }) => {
 
       <div className="mb-6  text-center">
         <a className="text-secondary rd brrd my-2" href="tel:01133228354">
-          0113 322 8354 - PRT.
+          0113 322 8354 - PVT.
         </a>
         <hr className="mb-3" />
         <a className="text-secondary bl bbrd my-2" href="tel:01132638509">
@@ -134,7 +134,6 @@ const MobileMenu = ({ open, setOpen }) => {
                       </Link>
                     ))}
                   </List>
-                  
                 </AccordionBody>
               </Accordion>
             );

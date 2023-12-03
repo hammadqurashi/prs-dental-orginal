@@ -17,10 +17,7 @@ const ServicesSinglePage = ({ data }) => {
   const { name, image, description } = data.contentfulServices;
   const slug = customSlugify(name);
 
-  if (
-    slug === "cmetic" ||
-    slug === "general-destry" 
-  ) {
+  if (slug === "cmetic" || slug === "general-destry") {
     return (
       <Layout>
         <section className="relative after:content[''] after:h-full after:w-full after:absolute after:left-0 after:top-0 after:bg-black/40">
@@ -46,11 +43,7 @@ const ServicesSinglePage = ({ data }) => {
       {slug === "mobile-dentistry" ? <DomiciliaryCare /> : <NotFoundPage />}
       {slug === "whitening" ? <Whitening /> : <NotFoundPage />}
       {slug === "custom-grillz" ? <CustomGrillz /> : <NotFoundPage />}
-      {slug === "emergency-dental" ? (
-        <EmergencyDentistry />
-      ) : (
-        <NotFoundPage />
-      )}
+      {slug === "emergency-dental" ? <EmergencyDentistry /> : <NotFoundPage />}
     </Layout>
   );
 };

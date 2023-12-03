@@ -25,7 +25,7 @@ const ClearAlignersBaner = () => {
 
         <a
           className=" mt-7 flex justify-center lg:justify-start"
-          href="https://res.cloudinary.com/db1i46uiv/image/upload/c_fill,g_east,h_750,w_1543,x_552,y_750/v1696534267/HP-1.png_pnuzdd.jpg"
+          href="https://uk.dentalhub.online/v1/view/organization/6119/index.html#/perspectives/3"
           target="_blank"
         >
           <Button

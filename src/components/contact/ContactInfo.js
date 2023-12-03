@@ -33,7 +33,7 @@ const ContactInfo = () => {
 
       <div className="flex flex-col items-center justify-center gap-3">
         <a className="text-secondary rd brrd my-2" href="tel:01133228354">
-          0113 322 8354 - PRT.
+          0113 322 8354 - PVT.
         </a>
         <a
           className="text-secondary bl bbrd my-2"

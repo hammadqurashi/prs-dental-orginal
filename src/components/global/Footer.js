@@ -140,7 +140,7 @@ const Footer = () => {
             className="flex items-center footer-back mb-4 mr-8"
           >
             <FiPhone className="mr-2 w-1/12 text-xl" />{" "}
-            <span className="font-light">0113 322 8354 - PRT.</span>
+            <span className="font-light">0113 322 8354 - PVT.</span>
           </a>
           <a
             href={`tel:${footerData?.phone}`}

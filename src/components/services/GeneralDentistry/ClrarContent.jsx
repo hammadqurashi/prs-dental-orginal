@@ -1,4 +1,8 @@
 import React from "react";
+import video1 from "../../../../static/videos/1.mp4";
+import video2 from "../../../../static/videos/2.mp4";
+import video3 from "../../../../static/videos/3.mp4";
+import video4 from "../../../../static/videos/4.mp4";
 
 const ClearAlignersBaner = () => {
   return (
@@ -124,6 +128,15 @@ const ClearAlignersBaner = () => {
         <p className="p-style-2">
           4. Insurance: Check if the dental practice accepts your insurance.
         </p>
+      </div>
+      <div className="tab1 pt-16">
+        <h1 className="blue text-3xl t-style-2	pb-6">Eductional Videos</h1>
+        <div className="grid grid-cols-2 gap-4">
+          <video src={video1} controls className="w-full"></video>
+          <video src={video2} controls className="w-full"></video>
+          <video src={video3} controls className="w-full"></video>
+          <video src={video4} controls className="w-full"></video>
+        </div>
       </div>
     </section>
   );

@@ -14,7 +14,13 @@ const addressBlocks = [
     val: "7 - 9 Branch Road,LEEDS, LS12 3AQ",
     Icon: HiOutlineMapPin,
   },
-  { id: 2, name: "Phone", val: "0113 322 8354", Icon: HiOutlinePhone },
+  {
+    id: 2,
+    name: "Phone",
+    val: "0113 322 8354",
+    Icon: HiOutlinePhone,
+    href: "tel:0113 322 8354",
+  },
   {
     id: 3,
     name: "Email",
@@ -33,10 +39,18 @@ function EmergencyAddress() {
               {<block.Icon className="text-2xl" />}
             </div>
             <div>
-              <Typography variant="h4" className="font-bold">
-                {block.name}
-              </Typography>
-              <p className=" text-gray-300">{block.val}</p>
+              {/* {block.href ? ( */}
+              <a href={block.href ? block.href : "#"} target="_blank">
+                <Typography variant="h4" className="font-bold">
+                  {block.name}
+                </Typography>
+                {/* ) : ( */}
+                {/* <Typography variant="h4" className="font-bold">
+                  {block.name}
+                </Typography> */}
+                {/* )} */}
+                <p className=" text-gray-300">{block.val}</p>
+              </a>
             </div>
           </div>
         ))}

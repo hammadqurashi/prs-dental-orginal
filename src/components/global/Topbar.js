@@ -27,7 +27,8 @@ const Topbar = () => {
     <div className="bg-primary text-white text-sm font-light hidden lg:block">
       <div className="flex justify-between container mx-auto px-10">
         <div className="flex items-center">
-          <FiClock className="mr-2" /> <span>Monday to Saturday - 9am to 6pm</span>
+          <FiClock className="mr-2" />{" "}
+          <span>Monday to Saturday - 9am to 6pm</span>
         </div>
         <div className="flex">
           <a
@@ -35,7 +36,7 @@ const Topbar = () => {
             className="px-4 redoutline flex items-center"
           >
             <FiPhone className="mr-2 " />
-            0113 322 8354 - PRT.
+            0113 322 8354 - PVT.
           </a>
           <a
             href="tel:001132638509"
